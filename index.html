@@ -232,45 +232,56 @@
 
       <!-- STATS -->
 
-      <div class="about-stats">
+          <div class="about-stats">
 
-        <div class="stat-card">
+            <div class="stat-card">
 
-          <span class="stat-number">
-            150+
-          </span>
+              <span
+                class="stat-number"
+                data-target="150"
+                data-suffix="+"
+              >
+                0+
+              </span>
 
-          <span class="stat-label">
-            Incidents Handled
-          </span>
+              <span class="stat-label">
+                Incidents Handled
+              </span>
 
-        </div>
-
-
-        <div class="stat-card">
-
-          <span class="stat-number">
-            96%
-          </span>
-
-          <span class="stat-label">
-            Resolution Rate
-          </span>
-
-        </div>
+            </div>
 
 
-        <div class="stat-card">
+            <div class="stat-card">
 
-          <span class="stat-number">
-            SQL
-          </span>
+              <span
+                class="stat-number"
+                data-target="96"
+                data-suffix="%"
+              >
+                0%
+              </span>
 
-          <span class="stat-label">
-            Data & Database
-          </span>
+              <span class="stat-label">
+                Resolution Rate
+              </span>
 
-        </div>
+            </div>
+
+
+            <div class="stat-card">
+
+              <span class="stat-number">
+                SQL
+              </span>
+
+              <span class="stat-label">
+                Data & Database
+              </span>
+
+            </div>
+
+          </div>  
+
 
       </div>
 
@@ -3051,6 +3062,93 @@ if (
     card.classList.add(
       "project-active"
     );
+
+  });
+
+}
+</script>
+
+<!-- -------------------------------- -->
+
+<script>
+/* ========================================
+   ABOUT STATS COUNT UP
+======================================== */
+
+const statNumbers = document.querySelectorAll(
+  ".stat-number[data-target]"
+);
+
+if ("IntersectionObserver" in window) {
+
+  const statsObserver = new IntersectionObserver(
+    function(entries, observer) {
+
+      entries.forEach(function(entry) {
+
+        if (entry.isIntersecting) {
+
+          const element = entry.target;
+          const target = Number(element.dataset.target);
+          const suffix = element.dataset.suffix || "";
+
+          let start = 0;
+          const duration = 1200;
+          const startTime = performance.now();
+
+          function updateCount(currentTime) {
+
+            const progress = Math.min(
+              (currentTime - startTime) / duration,
+              1
+            );
+
+            // Smooth easing
+            const easedProgress =
+              1 - Math.pow(1 - progress, 3);
+
+            const currentValue = Math.floor(
+              easedProgress * target
+            );
+
+            element.textContent =
+              currentValue + suffix;
+
+            if (progress < 1) {
+              requestAnimationFrame(updateCount);
+            } else {
+              element.textContent =
+                target + suffix;
+            }
+          }
+
+          requestAnimationFrame(updateCount);
+
+          observer.unobserve(element);
+        }
+
+      });
+
+    },
+    {
+      threshold: 0.5
+    }
+  );
+
+
+  statNumbers.forEach(function(stat) {
+    statsObserver.observe(stat);
+  });
+
+} else {
+
+  // Fallback untuk browser lama
+  statNumbers.forEach(function(stat) {
+
+    const target = stat.dataset.target;
+    const suffix = stat.dataset.suffix || "";
+
+    stat.textContent = target + suffix;
 
   });
 
