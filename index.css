@@ -3437,6 +3437,65 @@ body.dark-mode .theme-icon {
 }
 
 
+/* ========================================
+   FIX DARK MODE HEADER
+======================================== */
+
+body.dark-mode .header-inner {
+  background: rgba(15, 15, 15, 0.90) !important;
+  border-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+body.dark-mode .nav {
+  background: rgba(25, 25, 25, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+body.dark-mode .nav a {
+  color: #a1a1a1 !important;
+  background: transparent !important;
+}
+
+body.dark-mode .nav a:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+body.dark-mode .nav a.active {
+  color: #0b0b0b !important;
+  background: #f5f5f5 !important;
+}
+
+body.dark-mode .header-time {
+  color: #a1a1a1 !important;
+}
+
+body.dark-mode .cv-button {
+  color: #f5f5f5 !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+body.dark-mode .theme-toggle {
+  color: #f5f5f5 !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+/* LET'S TALK */
+
+body.dark-mode .header-cta {
+  color: #0b0b0b !important;
+  background: #f5f5f5 !important;
+  border-color: #f5f5f5 !important;
+}
+
+body.dark-mode .header-cta:hover {
+  color: #0b0b0b !important;
+  background: #ffffff !important;
+}
+
+
 /* -------------------------------------------------------- */
 
 /* ========================================
@@ -4231,10 +4290,17 @@ body.dark-mode .beyond-card-content p {
   transform: scale(0.95);
 }
 
+/* CV BUTTON */
+
 body.dark-mode .cv-button {
-  background: #f5f5f5;
-  color: #0b0b0b;
-  border-color: rgba(255, 255, 255, 0.10);
+  color: #0b0b0b !important;
+  background: #f5f5f5 !important;
+  border-color: #f5f5f5 !important;
+}
+
+body.dark-mode .cv-button:hover {
+  color: #0b0b0b !important;
+  background: #ffffff !important;
 }
 
 body.dark-mode .cv-button:hover {
@@ -4731,3 +4797,7 @@ body.dark-mode .cv-button:hover {
     transition: none;
   }
 }
+
+
+/* ----------------------------------------------------------- */
+
