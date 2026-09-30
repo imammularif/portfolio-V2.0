@@ -758,10 +758,12 @@
 }
 
 .hero-button.primary:hover {
+  background: rgba(255, 255, 255, 0.059);
+
   transform: translateY(-2px);
 
   box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.15);
+    0 8px 20px rgba(254, 254, 254, 0.15);
 }
 
 
@@ -770,7 +772,7 @@
 .hero-button.secondary {
   color: #000;
 
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
 
   border: 1px solid rgba(0, 0, 0, 0.08);
 
@@ -782,6 +784,9 @@
   background: rgba(255, 255, 255, 0.5);
 
   transform: translateY(-2px);
+
+    box-shadow:
+    0 8px 20px rgba(255, 251, 251, 0.248);
 }
 
 
