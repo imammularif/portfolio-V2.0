@@ -3,7 +3,7 @@
 A clean and minimal personal portfolio website showcasing my **professional journey, technical skills, projects, and interests in Data & Technology**.
 
 🌐 **Live Website:**
-https://imammularif.github.io/portfolio/
+https://imammularif.github.io/portfolio-V2.0/
 
 ---
 
