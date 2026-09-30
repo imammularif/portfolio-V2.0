@@ -758,7 +758,7 @@
 }
 
 .hero-button.primary:hover {
-  background: rgba(255, 255, 255, 0.059);
+  /* background: rgba(255, 255, 255, 0.059); */
 
   transform: translateY(-2px);
 
