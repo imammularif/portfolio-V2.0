@@ -1,108 +1,450 @@
-/* ========================================
-   GLASS HEADER
-======================================== */
+/* =========================================================
+   GLASS HEADER — COMPLETE
+========================================================= */
 
 .glass-header {
   position: fixed;
   top: 20px;
   left: 50%;
-
   transform: translateX(-50%);
-
   width: min(1100px, calc(100% - 40px));
+  z-index: 9999;
 
-  z-index: 1000;
+  font-family: inherit;
 }
 
 
-/* ========================================
-   HEADER INNER — WHITE FROSTED GLASS
-======================================== */
+/* =========================================================
+   HEADER INNER
+========================================================= */
 
 .header-inner {
+  width: 100%;
+  min-height: 64px;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
-  padding: 14px 18px;
+  padding: 0 14px 0 20px;
 
-  /* WHITE FROSTED GLASS */
-  background: rgba(255, 255, 255, 0.92);
-
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-
-  /* soft glass border */
-  border: 1px solid rgba(255, 255, 255, 0.65);
-
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 18px;
 
-  /* soft floating effect */
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
   box-shadow:
-    0 8px 30px rgba(0, 0, 0, 0.10),
-    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    0 8px 30px rgba(0, 0, 0, 0.06);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 
-/* ========================================
+/* =========================================================
    LOGO
-======================================== */
+========================================================= */
 
 .logo {
-  color: #000;
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
 
   text-decoration: none;
 
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
 
-  letter-spacing: -0.5px;
+  color: #111;
+
+  transition: color 0.25s ease;
 }
 
 .logo span {
-  color: #000;
-  opacity: 0.5;
+  display: inline-block;
+
+  width: 6px;
+  height: 6px;
+
+  margin-left: 2px;
+
+  background: currentColor;
+  border-radius: 50%;
 }
 
 
-/* ========================================
-   DESKTOP NAV
-======================================== */
+/* =========================================================
+   DESKTOP NAV — CENTERED
+========================================================= */
 
 .nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  gap: 6px;
+  gap: 4px;
 
-  padding: 5px;
-
-  background: rgba(255, 255, 255, 0.62);
-
-  border: 1px solid rgba(255, 255, 255, 0.55);
-
-  border-radius: 14px;
-
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
-/* NAV LINK */
 
 .nav a {
   position: relative;
 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 38px;
+  padding: 0 9px;
+
+  color: #555;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+
+  white-space: nowrap;
+
+  border-radius: 9px;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+
+/* =========================================================
+   NAV UNDERLINE
+========================================================= */
+
+.nav a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: 3px;
+
+  width: 0;
+  height: 2px;
+
+  background: currentColor;
+
+  border-radius: 10px;
+
+  transform: translateX(-50%);
+
+  transition:
+    width 0.25s ease;
+}
+
+
+/* Hover */
+
+.nav a:hover {
+  color: #111;
+  background: rgba(0, 0, 0, 0.045);
+}
+
+.nav a:hover::after {
+  width: 16px;
+}
+
+
+/* Active menu */
+
+.nav a.active {
+  color: #111;
+}
+
+.nav a.active::after {
+  width: 16px;
+}
+
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode .nav a {
+  color: #aaa;
+}
+
+body.dark-mode .nav a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+body.dark-mode .nav a.active {
+  color: #fff;
+}
+
+
+/* =========================================================
+   HEADER TIME
+========================================================= */
+
+.header-time {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+
+  /* Geser area info sedikit ke kiri */
+  margin-left: 4px;
+  margin-right: 10px;
+
+  color: #555;
+
+  white-space: nowrap;
+
+  transition: color 0.25s ease;
+}
+
+.header-time span {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.header-time small {
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+
+  opacity: 0.7;
+}
+
+
+/* =========================================================
+   CV BUTTON
+========================================================= */
+
+.cv-button {
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 38px;
+  height: 38px;
+
+  /* Sedikit lebih dekat ke area tengah */
+  margin-left: 0;
+  margin-right: 6px;
+
+  color: #111;
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.cv-button:hover {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   THEME TOGGLE
+========================================================= */
+
+.theme-toggle {
+  flex-shrink: 0;
+
+  width: 38px;
+  height: 38px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 0;
+  margin-right: 10px;
+
+  padding: 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  color: #111;
+
+  cursor: pointer;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.09);
+
+  transform: translateY(-1px);
+}
+
+.theme-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 17px;
+  line-height: 1;
+
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   LET'S TALK
+========================================================= */
+
+.header-cta {
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 82px;
+  height: 38px;
+
+  padding: 0 15px;
+
+  color: #fff;
+  background: #111;
+
+  border: 1px solid #111;
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.header-cta:hover {
+  background: #333;
+  border-color: #333;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   MOBILE MENU BUTTON
+========================================================= */
+
+.menu-toggle {
+  display: none;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.menu-toggle span {
+  display: block;
+
+  width: 16px;
+  height: 1.5px;
+
+  background: #111;
+
+  border-radius: 2px;
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease,
+    background 0.25s ease;
+}
+
+
+/* =========================================================
+   MOBILE MENU
+========================================================= */
+
+.mobile-menu {
+  display: none;
+
+  margin-top: 8px;
+
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.08);
+
+  overflow: hidden;
+}
+
+.mobile-menu a {
   display: flex;
   align-items: center;
 
-  padding: 9px 14px;
+  min-height: 44px;
 
-  color: rgba(0, 0, 0, 0.55);
+  padding: 0 14px;
 
+  color: #444;
   text-decoration: none;
 
   font-size: 13px;
@@ -111,474 +453,852 @@
   border-radius: 10px;
 
   transition:
-    color 0.25s ease,
-    background 0.25s ease,
-    transform 0.25s ease;
+    color 0.2s ease,
+    background 0.2s ease;
+}
+
+.mobile-menu a:hover {
+  color: #111;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 
-/* NAV HOVER */
+/* =========================================================
+   DARK MODE
+========================================================= */
 
-.nav a:hover {
-  color: #000;
+body.dark-mode .header-inner {
+  background: rgba(15, 15, 15, 0.90);
 
-  background: rgba(255, 255, 255, 0.55);
-
-  transform: translateY(-1px);
-}
-
-
-/* ACTIVE NAV */
-
-.nav a.active {
-  color: #000;
-
-  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.10);
 
   box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.06);
+    0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 
-/* NAV UNDERLINE */
+/* LOGO */
 
-.nav a::after {
+body.dark-mode .logo {
+  color: #fff;
+}
+
+
+/* NAV */
+
+body.dark-mode .nav a {
+  color: #aaa;
+}
+
+body.dark-mode .nav a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+
+/* TIME */
+
+body.dark-mode .header-time {
+  color: #aaa;
+}
+
+
+/* CV */
+
+body.dark-mode .cv-button {
+  color: #fff;
+
+  background: rgba(255, 255, 255, 0.07);
+
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+body.dark-mode .cv-button:hover {
+  color: #111;
+  background: #fff;
+  border-color: #fff;
+}
+
+
+/* THEME BUTTON */
+
+body.dark-mode .theme-toggle {
+  color: #fff;
+
+  background: rgba(255, 255, 255, 0.07);
+
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+body.dark-mode .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.13);
+}
+
+
+/* LET'S TALK */
+
+body.dark-mode .header-cta {
+  color: #111;
+
+  background: #fff;
+  border-color: #fff;
+}
+
+body.dark-mode .header-cta:hover {
+  background: #ddd;
+  border-color: #ddd;
+}
+
+
+/* =========================================================
+   MOBILE HEADER + MOBILE MENU
+   COMPLETE / CLEAN VERSION
+========================================================= */
+
+
+/* =========================================================
+   MOBILE MENU — BASE
+========================================================= */
+
+.mobile-menu {
+  display: block;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 8px;
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.08);
+
+  overflow: hidden;
+
+  /* CLOSED STATE */
+
+  max-height: 0;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
+  transform: translateY(-18px);
+
+  transform-origin: top;
+
+  margin-bottom: 0;
+
+  transition:
+    max-height 0.45s ease,
+    opacity 0.25s ease,
+    transform 0.35s ease,
+    visibility 0.35s ease,
+    margin-bottom 0.35s ease;
+}
+
+
+/* =========================================================
+   MOBILE MENU — OPEN STATE
+========================================================= */
+
+.mobile-menu.active {
+  max-height: 600px;
+
+  opacity: 1;
+
+  visibility: visible;
+
+  pointer-events: auto;
+
+  transform: translateY(0);
+
+  margin-bottom: 8px;
+}
+
+
+/* =========================================================
+   MOBILE MENU LINKS
+========================================================= */
+
+.mobile-menu a {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  min-height: 44px;
+
+  padding: 0 14px;
+
+  box-sizing: border-box;
+
+  color: #444;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  border-radius: 10px;
+
+  /* INITIAL */
+
+  opacity: 0;
+
+  transform: translateY(-10px);
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.3s ease,
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+
+/* =========================================================
+   MOBILE MENU LINKS — OPEN
+========================================================= */
+
+.mobile-menu.active a {
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   LINK ANIMATION DELAY
+========================================================= */
+
+.mobile-menu.active a:nth-child(1) {
+  transition-delay: 0.03s;
+}
+
+.mobile-menu.active a:nth-child(2) {
+  transition-delay: 0.06s;
+}
+
+.mobile-menu.active a:nth-child(3) {
+  transition-delay: 0.09s;
+}
+
+.mobile-menu.active a:nth-child(4) {
+  transition-delay: 0.12s;
+}
+
+.mobile-menu.active a:nth-child(5) {
+  transition-delay: 0.15s;
+}
+
+.mobile-menu.active a:nth-child(6) {
+  transition-delay: 0.18s;
+}
+
+.mobile-menu.active a:nth-child(7) {
+  transition-delay: 0.21s;
+}
+
+.mobile-menu.active a:nth-child(8) {
+  transition-delay: 0.24s;
+}
+
+
+/* =========================================================
+   MOBILE MENU — HOVER
+========================================================= */
+
+.mobile-menu a:hover {
+  color: #111;
+
+  background: rgba(0, 0, 0, 0.045);
+}
+
+
+/* =========================================================
+   MOBILE MENU — ACTIVE
+========================================================= */
+
+.mobile-menu a.active {
+  color: #111;
+}
+
+
+/* =========================================================
+   MOBILE MENU — ACTIVE UNDERLINE
+========================================================= */
+
+.mobile-menu a.active::after {
   content: "";
 
   position: absolute;
 
-  left: 50%;
-  bottom: 4px;
+  left: 14px;
+  bottom: 7px;
 
-  width: 0;
+  width: 18px;
   height: 2px;
 
-  background: #000;
+  background: currentColor;
 
   border-radius: 10px;
-
-  transform: translateX(-50%);
-
-  transition: width 0.25s ease;
-}
-
-.nav a:hover::after,
-.nav a.active::after {
-  width: 14px;
 }
 
 
-/* ========================================
-   LET'S TALK BUTTON
-======================================== */
-
-.header-cta {
-  color: #000;
-
-  text-decoration: none;
-
-  font-size: 14px;
-  font-weight: 500;
-
-  padding: 9px 16px;
-
-  border-radius: 10px;
-
-  background: rgba(255, 255, 255, 0.12);
-
-  border: 1px solid rgba(255, 255, 255, 0.12);
-
-  transition: all 0.25s ease;
-}
-
-.header-cta:hover {
-  color: #000;
-
-  background: rgba(255, 255, 255, 0.35);
-
-  transform: translateY(-1px);
-}
-
-
-/* ========================================
-   HAMBURGER
-======================================== */
+/* =========================================================
+   HAMBURGER BUTTON — BASE
+========================================================= */
 
 .menu-toggle {
   display: none;
 
-  width: 44px;
-  height: 44px;
+  flex-shrink: 0;
 
-  padding: 10px;
+  width: 40px;
+  height: 40px;
 
-  border: none;
+  margin: 0;
+  padding: 0;
 
-  background: transparent;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  border-radius: 10px;
 
   cursor: pointer;
 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  gap: 5px;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
 }
+
+
+/* =========================================================
+   HAMBURGER LINES
+========================================================= */
 
 .menu-toggle span {
   display: block;
 
-  width: 22px;
-  height: 2px;
+  width: 16px;
+  height: 1.5px;
 
-  background: #000;
+  background: #111;
 
-  border-radius: 10px;
+  border-radius: 2px;
 
-  transition: all 0.3s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease,
+    background 0.25s ease;
 }
 
 
-/* ========================================
-   MOBILE MENU
-======================================== */
+/* =========================================================
+   HAMBURGER ACTIVE → X
+========================================================= */
 
-.mobile-menu {
-  display: none;
+.menu-toggle.active span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
 }
 
 
-/* ========================================
-   MOBILE
-======================================== */
+/* =========================================================
+   MOBILE — <= 900px
+========================================================= */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+
+  /* -------------------------------------------------------
+     HEADER CONTAINER
+  ------------------------------------------------------- */
 
   .glass-header {
-    top: 15px;
+    width: min(100% - 28px, 700px);
 
-    width: calc(100% - 30px);
+    top: 14px;
+    left: 50%;
+
+    transform: translateX(-50%);
   }
 
 
-  .header-inner {
-    position: relative;
+  /* -------------------------------------------------------
+     HEADER INNER
+  ------------------------------------------------------- */
 
-    padding: 10px 12px;
+  .header-inner {
+    width: 100%;
+
+    min-height: 60px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 10px 0 16px;
 
     border-radius: 16px;
   }
 
 
-  /* Hide desktop navigation */
+  /* -------------------------------------------------------
+     HIDE DESKTOP NAV
+  ------------------------------------------------------- */
 
-  .nav,
-  .header-cta {
-    display: none;
+  .nav {
+    display: none !important;
   }
 
 
-  /* Show hamburger */
+  /* -------------------------------------------------------
+     HIDE LET'S TALK
+  ------------------------------------------------------- */
+
+  .header-cta {
+    display: none !important;
+  }
+
+
+  /* -------------------------------------------------------
+     SHOW TIME
+  ------------------------------------------------------- */
+
+  .header-time {
+    display: flex;
+
+    flex-shrink: 0;
+
+    align-items: baseline;
+
+    gap: 3px;
+
+    margin-left: auto;
+
+    margin-right: 8px;
+  }
+
+
+  /* -------------------------------------------------------
+     SHOW CV
+  ------------------------------------------------------- */
+
+  .cv-button {
+    display: inline-flex;
+
+    flex-shrink: 0;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    margin-left: 0;
+    margin-right: 6px;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    border-radius: 9px;
+  }
+
+
+  /* -------------------------------------------------------
+     SHOW DARK MODE
+  ------------------------------------------------------- */
+
+  .theme-toggle {
+    display: inline-flex;
+
+    flex-shrink: 0;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    margin-left: 0;
+    margin-right: 7px;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    border-radius: 9px;
+  }
+
+
+  /* -------------------------------------------------------
+     SHOW HAMBURGER
+  ------------------------------------------------------- */
 
   .menu-toggle {
     display: flex;
+
+    flex-shrink: 0;
+
+    width: 40px;
+    height: 40px;
+
+    margin: 0;
   }
 
 
-  /* ====================================
-     MOBILE DROPDOWN
-  ==================================== */
+  /* -------------------------------------------------------
+     MOBILE MENU
+     
+     IMPORTANT:
+     JANGAN pakai display:none di sini.
+     Animasi menggunakan max-height + opacity.
+  ------------------------------------------------------- */
 
   .mobile-menu {
-    display: flex;
+    display: block;
+  }
+}
 
-    flex-direction: column;
 
-    gap: 4px;
+/* =========================================================
+   MOBILE DARK MODE
+========================================================= */
 
-    margin-top: 8px;
+@media (max-width: 900px) {
+
+  /* -------------------------------------------------------
+     HEADER
+  ------------------------------------------------------- */
+
+  body.dark-mode .header-inner {
+    background: rgba(15, 15, 15, 0.90);
+
+    border-color: rgba(255, 255, 255, 0.10);
+  }
+
+
+  /* -------------------------------------------------------
+     TIME
+  ------------------------------------------------------- */
+
+  body.dark-mode .header-time {
+    color: #aaa;
+  }
+
+
+  /* -------------------------------------------------------
+     CV
+  ------------------------------------------------------- */
+
+  body.dark-mode .cv-button {
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.07);
+
+    border-color: rgba(255, 255, 255, 0.10);
+  }
+
+  body.dark-mode .cv-button:hover {
+    color: #111;
+
+    background: #fff;
+
+    border-color: #fff;
+  }
+
+
+  /* -------------------------------------------------------
+     THEME
+  ------------------------------------------------------- */
+
+  body.dark-mode .theme-toggle {
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.07);
+
+    border-color: rgba(255, 255, 255, 0.10);
+  }
+
+  body.dark-mode .theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.13);
+  }
+
+
+  /* -------------------------------------------------------
+     HAMBURGER
+  ------------------------------------------------------- */
+
+  body.dark-mode .menu-toggle {
+    background: rgba(255, 255, 255, 0.07);
+
+    border-color: rgba(255, 255, 255, 0.10);
+  }
+
+  body.dark-mode .menu-toggle span {
+    background: #fff;
+  }
+
+
+  /* -------------------------------------------------------
+     MOBILE MENU
+  ------------------------------------------------------- */
+
+  body.dark-mode .mobile-menu {
+    background: rgba(15, 15, 15, 0.94);
+
+    border-color: rgba(255, 255, 255, 0.10);
+
+    box-shadow:
+      0 12px 35px rgba(0, 0, 0, 0.35);
+  }
+
+  body.dark-mode .mobile-menu a {
+    color: #aaa;
+  }
+
+  body.dark-mode .mobile-menu a:hover {
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  body.dark-mode .mobile-menu a.active {
+    color: #fff;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE — <= 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .glass-header {
+    width: calc(100% - 20px);
+
+    top: 10px;
+  }
+
+
+  .header-inner {
+    min-height: 56px;
+
+    padding: 0 7px 0 14px;
+
+    border-radius: 15px;
+  }
+
+
+  /* -------------------------------------------------------
+     LOGO
+  ------------------------------------------------------- */
+
+  .logo {
+    font-size: 17px;
+  }
+
+
+  /* -------------------------------------------------------
+     TIME
+  ------------------------------------------------------- */
+
+  .header-time {
+    gap: 2px;
+
+    margin-right: 6px;
+  }
+
+  .header-time span {
+    font-size: 10px;
+  }
+
+  .header-time small {
+    font-size: 7px;
+  }
+
+
+  /* -------------------------------------------------------
+     CV
+  ------------------------------------------------------- */
+
+  .cv-button {
+    width: 34px;
+    height: 34px;
+
+    margin-right: 5px;
+
+    border-radius: 8px;
+
+    font-size: 10px;
+  }
+
+
+  /* -------------------------------------------------------
+     THEME
+  ------------------------------------------------------- */
+
+  .theme-toggle {
+    width: 34px;
+    height: 34px;
+
+    margin-right: 6px;
+
+    border-radius: 8px;
+  }
+
+  .theme-icon {
+    font-size: 16px;
+  }
+
+
+  /* -------------------------------------------------------
+     HAMBURGER
+  ------------------------------------------------------- */
+
+  .menu-toggle {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 9px;
+  }
+
+  .menu-toggle span {
+    width: 15px;
+  }
+
+
+  /* -------------------------------------------------------
+     MOBILE MENU
+  ------------------------------------------------------- */
+
+  .mobile-menu {
+    margin-top: 6px;
 
     padding: 8px;
 
-    background: rgba(255, 255, 255, 0.65);
-
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-
-    border: 1px solid rgba(255, 255, 255, 0.5);
-
-    border-radius: 16px;
-
-    box-shadow:
-      0 12px 35px rgba(0, 0, 0, 0.12),
-      inset 0 1px 0 rgba(255, 255, 255, 0.7);
-
-    /* CLOSED */
-
-    opacity: 0;
-
-    visibility: hidden;
-
-    transform: translateY(-10px);
-
-    pointer-events: none;
-
-    transition:
-      opacity 0.3s ease,
-      transform 0.3s ease,
-      visibility 0.3s ease;
+    border-radius: 14px;
   }
-
-
-  /* ====================================
-     OPEN
-  ==================================== */
-
-  .mobile-menu.active {
-    opacity: 1;
-
-    visibility: visible;
-
-    transform: translateY(0);
-
-    pointer-events: auto;
-  }
-
-
-  /* MOBILE LINKS */
 
   .mobile-menu a {
-    display: block;
+    min-height: 42px;
 
-    padding: 13px 15px;
+    padding: 0 13px;
 
-    color: #000;
-
-    text-decoration: none;
-
-    font-size: 15px;
-
-    font-weight: 500;
-
-    border-radius: 10px;
-
-    transition: background 0.2s ease;
+    font-size: 12px;
   }
 
+  .mobile-menu a.active::after {
+    left: 13px;
 
-  .mobile-menu a:hover {
-    background: rgba(0, 0, 0, 0.05);
+    bottom: 6px;
+
+    width: 17px;
   }
-
-
-  /* ====================================
-     HAMBURGER → X
-  ==================================== */
-
-  .menu-toggle.active span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
-
-  .menu-toggle.active span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle.active span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-
-}
-
-/* =========================
-   MOBILE HEADER
-========================= */
-
-.menu-toggle {
-  display: none;
-  border: none;
-  background: transparent;
-  color: #000;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 4px;
 }
 
 
-/* Tablet & Mobile */
-@media (max-width: 768px) {
+/* =========================================================
+   VERY SMALL MOBILE — <= 360px
+========================================================= */
+
+@media (max-width: 360px) {
 
   .glass-header {
-    top: 15px;
-    width: calc(100% - 30px);
+    width: calc(100% - 16px);
   }
+
 
   .header-inner {
-    padding: 12px 15px;
-    border-radius: 16px;
-  }
+    padding-left: 12px;
 
-  .nav,
-  .header-cta {
-    display: none;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-}
-
-/* =========================
-   MOBILE MENU
-========================= */
-
-.menu-toggle {
-  display: none;
-  width: 44px;
-  height: 44px;
-
-  padding: 10px;
-  border: none;
-  background: transparent;
-
-  cursor: pointer;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-.menu-toggle span {
-  display: block;
-  width: 22px;
-  height: 2px;
-
-  background: #000;
-  border-radius: 10px;
-
-  transition: all 0.3s ease;
-}
-
-
-/* Mobile Dropdown */
-
-.mobile-menu {
-  display: none;
-}
-
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 768px) {
-
-  .glass-header {
-    top: 15px;
-    width: calc(100% - 30px);
-  }
-
-  .header-inner {
-    position: relative;
-    padding: 10px 12px;
-    border-radius: 16px;
-  }
-
-  .nav,
-  .header-cta {
-    display: none;
-  }
-
-  .menu-toggle {
-    display: flex;
+    padding-right: 6px;
   }
 
 
-  /* Dropdown */
-
-  .mobile-menu {
-    display: flex;
-
-    flex-direction: column;
-    gap: 4px;
-
-    margin-top: 8px;
-    padding: 8px;
-
-    background: rgba(255, 255, 255, 0.65);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 16px;
-
-    box-shadow:
-      0 12px 35px rgba(0, 0, 0, 0.12),
-      inset 0 1px 0 rgba(255, 255, 255, 0.7);
-
-    /* Hidden state */
-    opacity: 0;
-    visibility: hidden;
-
-    transform: translateY(-10px);
-    pointer-events: none;
-
-    transition:
-      opacity 0.3s ease,
-      transform 0.3s ease,
-      visibility 0.3s ease;
+  .logo {
+    font-size: 16px;
   }
 
 
-  /* Open state */
+  /* TIME */
 
-  .mobile-menu.active {
-    opacity: 1;
-    visibility: visible;
+  .header-time {
+    margin-right: 4px;
+  }
 
-    transform: translateY(0);
-    pointer-events: auto;
+  .header-time span {
+    font-size: 9px;
+  }
+
+  .header-time small {
+    font-size: 6px;
   }
 
 
-  /* Menu links */
+  /* CV */
 
-  .mobile-menu a {
-    display: block;
+  .cv-button {
+    width: 32px;
+    height: 32px;
 
-    padding: 13px 15px;
+    margin-right: 4px;
 
-    color: #000;
-    text-decoration: none;
+    font-size: 9px;
+  }
 
+
+  /* THEME */
+
+  .theme-toggle {
+    width: 32px;
+    height: 32px;
+
+    margin-right: 5px;
+  }
+
+  .theme-icon {
     font-size: 15px;
-    font-weight: 500;
-
-    border-radius: 10px;
-
-    transition: background 0.2s ease;
-  }
-
-  .mobile-menu a:hover {
-    background: rgba(0, 0, 0, 0.05);
   }
 
 
-  /* Hamburger -> X */
+  /* HAMBURGER */
 
-  .menu-toggle.active span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+  .menu-toggle {
+    width: 34px;
+    height: 34px;
   }
-
-  .menu-toggle.active span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle.active span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -2907,44 +3627,6 @@ body.dark-mode .logo {
 }
 
 
-/* ========================================
-   NAV
-======================================== */
-
-body.dark-mode .nav {
-
-  background: rgba(255, 255, 255, 0.045);
-
-  border-color:
-    rgba(255, 255, 255, 0.09);
-}
-
-
-body.dark-mode .nav a {
-
-  color: #a1a1a1;
-}
-
-
-body.dark-mode .nav a:hover {
-
-  color: #fff;
-
-  background:
-    rgba(255, 255, 255, 0.07);
-}
-
-
-body.dark-mode .nav a.active {
-
-  color: #0b0b0b;
-
-  background: #f5f5f5;
-
-  box-shadow:
-    0 4px 15px rgba(0, 0, 0, 0.25);
-}
-
 
 /* ========================================
    THEME BUTTON
@@ -3376,8 +4058,6 @@ body.dark-mode .back-to-top span {
 html,
 body,
 .header,
-.nav,
-.nav a,
 .theme-toggle,
 .hero,
 .about,
@@ -3408,100 +4088,7 @@ body,
 
 
 
-/* ========================================
-   SMOOTH THEME SWITCH
-======================================== */
 
-body {
-  transition:
-    background-color 0.4s ease,
-    color 0.4s ease;
-}
-
-.theme-toggle {
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    border-color 0.3s ease,
-    transform 0.3s ease;
-}
-
-.theme-toggle:active {
-  transform: scale(0.9);
-}
-
-.theme-icon {
-  display: inline-block;
-  transition:
-    transform 0.4s ease,
-    opacity 0.3s ease;
-}
-
-body.dark-mode .theme-icon {
-  transform: rotate(180deg);
-}
-
-
-/* ========================================
-   FIX DARK MODE HEADER
-======================================== */
-
-body.dark-mode .header-inner {
-  background: rgba(15, 15, 15, 0.90) !important;
-  border-color: rgba(255, 255, 255, 0.10) !important;
-}
-
-body.dark-mode .nav {
-  background: rgba(25, 25, 25, 0.92) !important;
-  border-color: rgba(255, 255, 255, 0.10) !important;
-}
-
-body.dark-mode .nav a {
-  color: #a1a1a1 !important;
-  background: transparent !important;
-}
-
-body.dark-mode .nav a:hover {
-  color: #ffffff !important;
-  background: rgba(255, 255, 255, 0.08) !important;
-}
-
-body.dark-mode .nav a.active {
-  color: #0b0b0b !important;
-  background: #f5f5f5 !important;
-}
-
-body.dark-mode .header-time {
-  color: #a1a1a1 !important;
-}
-
-body.dark-mode .cv-button {
-  color: #f5f5f5 !important;
-  background: rgba(255, 255, 255, 0.06) !important;
-  border-color: rgba(255, 255, 255, 0.10) !important;
-}
-
-body.dark-mode .theme-toggle {
-  color: #f5f5f5 !important;
-  background: rgba(255, 255, 255, 0.06) !important;
-  border-color: rgba(255, 255, 255, 0.10) !important;
-}
-
-/* LET'S TALK */
-
-body.dark-mode .header-cta {
-  color: #0b0b0b !important;
-  background: #f5f5f5 !important;
-  border-color: #f5f5f5 !important;
-}
-
-body.dark-mode .header-cta:hover {
-  color: #0b0b0b !important;
-  background: #ffffff !important;
-}
-
-
-/* -------------------------------------------------------- */
 
 /* ========================================
    HEADER TIME
@@ -3531,25 +4118,63 @@ body.dark-mode .header-cta:hover {
   letter-spacing: 0.08em;
 }
 
-/* DARK MODE */
-
 body.dark-mode .header-time {
   color: #8f8f8f;
 }
 
-/* MOBILE */
+
+/* ========================================
+   DARK MODE — THEME TOGGLE
+======================================== */
+
+body.dark-mode .theme-toggle {
+  color: #f5f5f5;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+
+/* ========================================
+   DARK MODE — LET'S TALK
+======================================== */
+
+body.dark-mode .header-cta {
+  color: #0b0b0b;
+
+  background: #f5f5f5;
+
+  border-color: #f5f5f5;
+}
+
+body.dark-mode .header-cta:hover {
+  color: #0b0b0b;
+
+  background: #ffffff;
+
+  border-color: #ffffff;
+}
+
+
+/* ========================================
+   MOBILE — HEADER TIME
+======================================== */
 
 @media (max-width: 768px) {
+
   .header-time {
     display: flex;
 
     font-size: 11px;
+
     gap: 3px;
   }
 
   .header-time small {
     font-size: 8px;
   }
+
 }
 
 /* ========================================
@@ -4254,75 +4879,8 @@ body.dark-mode .beyond-card-content p {
 }
 
 
-/* ========================================
-   CV BUTTON
-======================================== */
 
-.cv-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  min-width: 42px;
-  height: 36px;
-  padding: 0 14px;
-
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  border-radius: 999px;
-
-  background: #111;
-  color: #fff;
-
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-
-  text-decoration: none;
-
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    border-color 0.3s ease,
-    transform 0.3s ease;
-}
-
-.cv-button:hover {
-  background: #2a2a2a;
-  transform: translateY(-1px);
-}
-
-.cv-button:active {
-  transform: scale(0.95);
-}
-
-/* CV BUTTON */
-
-body.dark-mode .cv-button {
-  color: #0b0b0b !important;
-  background: #f5f5f5 !important;
-  border-color: #f5f5f5 !important;
-}
-
-body.dark-mode .cv-button:hover {
-  color: #0b0b0b !important;
-  background: #ffffff !important;
-}
-
-body.dark-mode .cv-button:hover {
-  background: #fff;
-}
-
-@media (max-width: 768px) {
-  .cv-button {
-    min-width: 38px;
-    height: 34px;
-    padding: 0 12px;
-    font-size: 10px;
-  }
-}
-
-
-/* ---------------------------------------------------- */
+/* --------------------------------------------------- */
 
 
 /* ========================================
@@ -4601,208 +5159,4 @@ body.dark-mode .cv-button:hover {
 
 
 /* ------------------------------------------------------- */
-
-
-/* ========================================
-   HEADER FADE IN
-======================================== */
-
-/* Header utama */
-.glass-header {
-  opacity: 0;
-
-  animation:
-    headerFadeIn 0.7s
-    cubic-bezier(0.22, 1, 0.36, 1)
-    0.05s
-    forwards;
-}
-
-
-/* ========================================
-   HEADER ITEMS
-======================================== */
-
-.logo {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.20s
-    forwards;
-}
-
-
-.nav {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.30s
-    forwards;
-}
-
-
-.header-time {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.40s
-    forwards;
-}
-
-
-.cv-button {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.45s
-    forwards;
-}
-
-
-.theme-toggle {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.50s
-    forwards;
-}
-
-
-.header-cta {
-  opacity: 0;
-  transform: translateY(-8px);
-
-  animation:
-    headerItemFade 0.5s ease
-    0.55s
-    forwards;
-}
-
-
-/* ========================================
-   MOBILE HAMBURGER
-======================================== */
-
-.menu-toggle {
-  opacity: 0;
-
-  animation:
-    headerItemFade 0.5s ease
-    0.40s
-    forwards;
-}
-
-
-/* ========================================
-   ANIMATION
-======================================== */
-
-@keyframes headerFadeIn {
-
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-
-}
-
-
-@keyframes headerItemFade {
-
-  0% {
-    opacity: 0;
-    transform: translateY(-8px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-}
-
-
-/* ========================================
-   REDUCED MOTION
-======================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .glass-header,
-  .logo,
-  .nav,
-  .header-time,
-  .cv-button,
-  .theme-toggle,
-  .header-cta,
-  .menu-toggle {
-
-    opacity: 1;
-    transform: none;
-    animation: none;
-
-  }
-
-}
-
-
-/* ------------------------------------------------ */
-
-/* ========================================
-   SKILLS CARD FADE
-======================================== */
-
-.skill-fade {
-  opacity: 0;
-  transform: translateY(30px);
-
-  transition:
-    opacity 0.7s ease,
-    transform 0.7s ease;
-}
-
-.skill-fade.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.skill-fade:nth-child(1) {
-  transition-delay: 0.05s;
-}
-
-.skill-fade:nth-child(2) {
-  transition-delay: 0.15s;
-}
-
-.skill-fade:nth-child(3) {
-  transition-delay: 0.25s;
-}
-
-.skill-fade:nth-child(4) {
-  transition-delay: 0.35s;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .skill-fade {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-}
-
-
-/* ----------------------------------------------------------- */
 
