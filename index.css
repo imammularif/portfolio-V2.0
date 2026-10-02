@@ -305,7 +305,7 @@ body.dark-mode .nav a.active {
 }
 
 .theme-toggle:hover {
-  background: rgb(139, 138, 138);
+  /* background: rgb(139, 138, 138); */
 
   transform: translateY(-1px);
 }
