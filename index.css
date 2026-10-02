@@ -304,11 +304,11 @@ body.dark-mode .nav a.active {
     transform 0.25s ease;
 }
 
-.theme-toggle:hover {
+/* .theme-toggle:hover {
 
   background:
     rgba(173, 173, 173, 0.97);
-}
+} */
 
 
 .theme-icon {
