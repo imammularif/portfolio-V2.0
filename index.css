@@ -3639,11 +3639,11 @@ body.dark-mode .theme-toggle {
 }
 
 /* ini */
-body.dark-mode .theme-toggle:hover {
+/* body.dark-mode .theme-toggle:hover {
 
   background:
     rgba(173, 173, 173, 0.97);
-}
+} */
 
 
 /* ========================================
