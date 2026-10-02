@@ -305,10 +305,11 @@ body.dark-mode .nav a.active {
 }
 
 .theme-toggle:hover {
-  /* background: rgb(139, 138, 138); */
 
-  transform: translateY(-1px);
+  background:
+    rgba(173, 173, 173, 0.97);
 }
+
 
 .theme-icon {
   display: flex;
@@ -530,9 +531,7 @@ body.dark-mode .theme-toggle {
   border-color: rgba(255, 255, 255, 0.10);
 }
 
-body.dark-mode .theme-toggle:hover {
-  background: rgb(245, 244, 244);
-}
+
 
 
 /* LET'S TALK */
@@ -1048,10 +1047,6 @@ body.dark-mode .header-cta:hover {
     background: rgba(232, 229, 229, 0.929);
 
     border-color: rgba(255, 255, 255, 0.10);
-  }
-
-  body.dark-mode .theme-toggle:hover {
-    background: rgba(244, 241, 241, 0.866);
   }
 
 
@@ -3643,7 +3638,7 @@ body.dark-mode .theme-toggle {
     rgba(255, 255, 255, 0.10);
 }
 
-
+/* ini */
 body.dark-mode .theme-toggle:hover {
 
   background:
