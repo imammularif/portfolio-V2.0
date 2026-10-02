@@ -5,9 +5,9 @@
 .glass-header {
   position: fixed;
   top: 20px;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
-  width: min(1100px, calc(100% - 40px));
+  width: min(1150px, calc(100% - 40px));
   z-index: 9999;
 
   font-family: inherit;
