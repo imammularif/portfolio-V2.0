@@ -42,11 +42,11 @@ This portfolio is a place where I showcase my **projects, technical skills, educ
 
 ### ☀️ Light Mode
 
-![Portfolio Light Mode](docs/screenshots/portfolio-light.png)
+![Portfolio Light Mode](https://github.com/imammularif/portfolio-V2.0/blob/main/docs/portfolio-light.png)
 
 ### 🌙 Dark Mode
 
-![Portfolio Dark Mode](docs/screenshots/portfolio-dark.png)
+![Portfolio Dark Mode](https://github.com/imammularif/portfolio-V2.0/blob/main/docs/portfolio-dark.png)
 
 ---
 
