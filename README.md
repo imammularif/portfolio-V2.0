@@ -2,7 +2,7 @@
 
 A clean and minimal personal portfolio website showcasing my **professional journey, technical skills, projects, and interests in Data & Technology**.
 
-🌐 **Live Website:**
+🌐 **Live Website:**  
 https://imammularif.github.io/portfolio-V2.0/
 
 ---
@@ -35,6 +35,18 @@ This portfolio is a place where I showcase my **projects, technical skills, educ
 * Contact section
 * Custom favicon
 * GitHub Pages deployment
+
+---
+
+## 📸 Screenshots
+
+### ☀️ Light Mode
+
+![Portfolio Light Mode](docs/screenshots/portfolio-light.png)
+
+### 🌙 Dark Mode
+
+![Portfolio Dark Mode](docs/screenshots/portfolio-dark.png)
 
 ---
 
@@ -75,7 +87,7 @@ This portfolio is a place where I showcase my **projects, technical skills, educ
 ## 📂 Project Structure
 
 ```text
-portfolio/
+portfolio-V2.0/
 │
 ├── index.html
 ├── index.css
@@ -86,6 +98,11 @@ portfolio/
 │   ├── project-1.jpg
 │   ├── project-2.jpg
 │   └── ...
+│
+├── docs/
+│   └── screenshots/
+│       ├── portfolio-light.png
+│       └── portfolio-dark.png
 │
 └── README.md
 ```
@@ -177,11 +194,11 @@ Areas I'm currently exploring include:
 
 If you'd like to connect, discuss a project, or explore professional opportunities, feel free to reach out.
 
-**Email:**
+**Email:**  
 [imammularif@gmail.com](mailto:imammularif@gmail.com)
 
-**Portfolio:**
-https://imammularif.github.io/portfolio/
+**Portfolio:**  
+https://imammularif.github.io/portfolio-V2.0/
 
 ---
 
