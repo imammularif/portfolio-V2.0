@@ -2084,7 +2084,7 @@ body.dark-mode .header-cta:hover {
 
 
 .skill-info p {
-  max-width: 390px;
+  max-width: 600px;
 
   margin: 0;
 
@@ -2095,6 +2095,8 @@ body.dark-mode .header-cta:hover {
   line-height: 1.7;
 
   text-align: justify;
+
+  
 }
 
 
@@ -2466,7 +2468,7 @@ body.dark-mode .header-cta:hover {
 
 
 .project-details p {
-  max-width: 550px;
+  max-width: 600px;
 
   margin: 0;
 
