@@ -1429,6 +1429,8 @@ body.dark-mode .header-cta:hover {
   font-size: 15px;
 
   line-height: 1.7;
+
+  text-align: justify;
 }
 
 
@@ -1710,6 +1712,7 @@ body.dark-mode .header-cta:hover {
 
 .about-text {
   max-width: 600px;
+  text-align: justify;
 }
 
 
@@ -1736,6 +1739,8 @@ body.dark-mode .header-cta:hover {
   font-weight: 500;
 
   letter-spacing: -0.3px;
+
+
 }
 
 
@@ -2088,6 +2093,8 @@ body.dark-mode .header-cta:hover {
   font-size: 14px;
 
   line-height: 1.7;
+
+  text-align: justify;
 }
 
 
@@ -2468,6 +2475,8 @@ body.dark-mode .header-cta:hover {
   font-size: 14px;
 
   line-height: 1.7;
+
+  text-align: justify;
 }
 
 
@@ -2869,6 +2878,8 @@ body.dark-mode .header-cta:hover {
   font-size: 14px;
 
   line-height: 1.7;
+
+  text-align: justify;
 }
 
 
@@ -3052,6 +3063,8 @@ body.dark-mode .header-cta:hover {
   font-size: 15px;
 
   line-height: 1.7;
+
+  text-align: justify;
 }
 
 
@@ -4251,6 +4264,8 @@ body.dark-mode .header-cta:hover {
   font-size: 16px;
   line-height: 1.8;
   color: #737373;
+
+  text-align: justify;
 }
 
 
@@ -4655,6 +4670,8 @@ body.dark-mode .menu-toggle span {
   font-size: 16px;
   line-height: 1.8;
   color: #737373;
+
+  text-align: justify;
 }
 
 
@@ -4762,6 +4779,7 @@ body.dark-mode .menu-toggle span {
   font-size: 14px;
   line-height: 1.7;
   color: #737373;
+  text-align: justify;
 }
 
 .beyond-card:hover .beyond-icon {
@@ -4851,6 +4869,7 @@ body.dark-mode .beyond-card-content p {
   .beyond-description {
     font-size: 14px;
     line-height: 1.7;
+    text-align: justify;
   }
 
   .beyond-grid {
