@@ -1,6 +1,6 @@
 # Imammul_arf. — Personal Portfolio
 
-A clean and minimal personal portfolio website showcasing my **professional journey, technical skills, projects, and interests in Data & Technology**.
+A personal portfolio showcasing my **professional journey, technical skills, projects, and interests in Data & Technology**.
 
 🌐 **Live Website:**  
 https://imammularif.github.io/portfolio-V2.0/
@@ -11,30 +11,30 @@ https://imammularif.github.io/portfolio-V2.0/
 
 Hi, I'm **Imammul Arif**.
 
-I'm an Informatics graduate and technology professional with experience in **digital banking operations, incident management, application support, SQL, data validation, and technical problem solving**.
+I'm an Informatics graduate with professional experience in **Product Operations, Digital Banking Operations, Incident Management, Application Support, SQL, and Data Validation**.
 
-My current focus is on **Data Analytics, Data Engineering, Cloud, and AI/ML**, while continuing to build practical skills through personal projects, professional experience, and continuous learning.
+My professional interests focus on **Data Analytics, Product Operations, SQL & Database Management, and Data Engineering**. I continuously develop my technical capabilities through hands-on projects, professional experience, and independent learning.
 
-This portfolio is a place where I showcase my **projects, technical skills, educational background, professional experience, and ongoing journey in technology**.
+This portfolio serves as a platform to showcase my **technical skills, projects, educational background, professional experience, and continuous development in technology**.
 
 ---
 
 ## 🚀 Features
 
-* Responsive design
-* Clean & minimal interface
-* Light / Dark mode
-* Smooth scrolling
-* Scroll reveal animations
-* Active navigation state
-* Real-time WIB clock
-* Responsive mobile navigation
-* Project showcase
-* Skills & tools section
-* Education & career journey timeline
-* Contact section
-* Custom favicon
-* GitHub Pages deployment
+- Responsive design
+- Clean and minimal interface
+- Light / Dark mode
+- Smooth scrolling
+- Scroll reveal animations
+- Active navigation state
+- Real-time WIB clock
+- Responsive mobile navigation
+- Project showcase
+- Skills and tools section
+- Education and professional journey timeline
+- Contact section
+- Custom favicon
+- GitHub Pages deployment
 
 ---
 
@@ -52,35 +52,35 @@ This portfolio is a place where I showcase my **projects, technical skills, educ
 
 ## 🛠️ Built With
 
-### Frontend
+### Frontend Development
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
-### Data & Technology
+### Data & Database Technologies
 
-* SQL
-* Python
-* Pandas
-* PostgreSQL
-* Microsoft SQL Server
-* Data Analytics
-* Data Validation
-* Database Troubleshooting
+- SQL
+- Python
+- Pandas
+- PostgreSQL
+- Microsoft SQL Server
+- Data Analytics
+- Data Validation
+- Database Troubleshooting
 
-### Tools
+### Development & Productivity Tools
 
-* Visual Studio Code
-* Git
-* GitHub
-* DBeaver
-* Grafana
-* Microsoft Excel
+- Visual Studio Code
+- Git
+- GitHub
+- DBeaver
+- Grafana
+- Microsoft Excel
 
 ### Deployment
 
-* GitHub Pages
+- GitHub Pages
 
 ---
 
@@ -111,82 +111,82 @@ portfolio-V2.0/
 
 ## 📌 Featured Projects
 
-### Smart Attendance with Face Recognition
+### 1. Smart Attendance with Face Recognition
 
 A university final project focused on developing an attendance system using face recognition technology.
 
 **Technologies:**
+- Python
+- OpenCV
+- LBPH
+- Face Recognition
 
-* Python
-* OpenCV
-* LBPH
-* Face Recognition
+### 2. Student Assessment Website
 
----
-
-### Student Assessment Website
-
-A web-based student assessment system developed as part of my university internship project to manage and present student assessment data in a structured digital environment.
+A web-based student assessment system developed as part of my university internship project. The application helps manage and present student assessment data in a structured digital environment.
 
 **Technologies:**
-
-* HTML
-* CSS
-* Web Development
-* Database
+- HTML
+- CSS
+- Web Development
+- Database
 
 ---
 
-## 🎓 Education & Journey
+## 🎓 Education & Professional Journey
 
-My journey started with my early education in **Dompu**, continued through Informatics at **Universitas Teknologi Yogyakarta**, and developed further through professional experience in Jakarta.
+My journey began with my early education in **Dompu**, continued through my Informatics studies at **Universitas Teknologi Yogyakarta**, and developed further through professional experience in Jakarta.
 
 ### Education
 
-* **SD Negeri 1 Dompu**
-* **SMP Negeri 1 Dompu**
-* **SMA Negeri 1 Dompu — Science 1**
-* **Universitas Teknologi Yogyakarta — Informatics**
+- **SD Negeri 1 Dompu**
+- **SMP Negeri 1 Dompu**
+- **SMA Negeri 1 Dompu — Science 1**
+- **Universitas Teknologi Yogyakarta — Informatics**
 
 ### Professional Journey
 
-* **PLN Icon Plus — Jakarta**
-* **Data, Cloud & AI Upskilling**
-* **Bank Raya Indonesia — Digital Operations**
-* **Data & Technology — Current Direction**
+- **PLN Icon Plus — Technical Support**
+- **Independent Learning & Technical Upskilling**
+- **Bank Raya Indonesia — Product Operations / Digital Problem Management**
+- **Current Direction — Product Operations, Data Analytics & SQL**
 
 ---
 
 ## 📊 Professional Focus
 
-I'm particularly interested in opportunities and projects related to:
+I'm interested in professional opportunities and projects related to:
 
-* Data Analytics
-* Data Engineering
-* SQL & Database
-* Python
-* Business / Data Analysis
-* Digital Banking Technology
-* IT & Application Support
-* Cloud
-* AI / Machine Learning
+- Product Operations
+- Data Analytics
+- Data Operations
+- SQL & Database Management
+- Business Analysis
+- Digital Banking Technology
+- Application Support
+- Data Engineering
+- Cloud Technology
+- AI / Machine Learning
 
 ---
 
 ## 📚 Continuous Learning
 
-I'm continuously improving my technical capabilities through courses, certifications, hands-on projects, and independent learning.
+I believe continuous learning and practical experience are essential for professional growth.
 
-Areas I'm currently exploring include:
+I'm continuously developing my technical capabilities through independent learning, hands-on projects, and exploration of new technologies.
 
-* Advanced SQL
-* Python for Data
-* Data Analytics
-* Data Engineering
-* Cloud Technology
-* Data Science
-* Machine Learning
-* Generative AI
+Current learning areas include:
+
+- Advanced SQL
+- Python for Data Analytics
+- Data Analytics & Visualization
+- Data Engineering Fundamentals
+- Database Management
+- Cloud Technology
+- Data Science
+- Machine Learning
+- Generative AI
 
 ---
 
