@@ -85,81 +85,17 @@ The desktop documentation presents both available themes side by side for visual
 </table>
 
 
-
-### 3.2 Mobile Interface
-
-Mobile screenshots document the main website sections and provide visual references for mobile navigation, content organization, and responsive improvements.
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center"><strong>Home</strong></td>
-    <td align="center"><strong>About Me</strong></td>
-    <td align="center"><strong>Career</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/phone/home.png" width="90" alt="Mobile Home"></td>
-    <td align="center"><img src="docs/phone/aboutme.png" width="90" alt="Mobile About Me"></td>
-    <td align="center"><img src="docs/phone/career.png" width="90" alt="Mobile Career"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Projects</strong></td>
-    <td align="center"><strong>Credentials</strong></td>
-    <td align="center"><strong>Core</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/phone/projectwork.png" width="90" alt="Mobile Projects"></td>
-    <td align="center"><img src="docs/phone/credential.png" width="90" alt="Mobile Credentials"></td>
-    <td align="center"><img src="docs/phone/core.png" width="90" alt="Mobile Core"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Beyond</strong></td>
-    <td align="center"><strong>Footer</strong></td>
-    <td align="center"><strong>Hamburger Menu</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/phone/beyond.png" width="90" alt="Mobile Beyond"></td>
-    <td align="center"><img src="docs/phone/footer.png" width="90" alt="Mobile Footer"></td>
-    <td align="center"><img src="docs/phone/hamburger.png" width="90" alt="Mobile Hamburger Menu"></td>
-  </tr>
-</table>
-
-</div>
-
-
 ### 3.3 Tablet Interface
 
 Tablet screenshots document the main website sections and provide visual references for the adaptive interface and future responsive improvements.
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center"><strong>Home</strong></td>
-    <td align="center"><strong>About Me</strong></td>
-    <td align="center"><strong>Career</strong></td>
-    <td align="center"><strong>Projects</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/tablet/home.png" width="100" alt="Tablet Home"></td>
-    <td align="center"><img src="docs/tablet/about.png" width="100" alt="Tablet About Me"></td>
-    <td align="center"><img src="docs/tablet/career.png" width="100" alt="Tablet Career"></td>
-    <td align="center"><img src="docs/tablet/projectwork.png" width="100" alt="Tablet Projects"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Credentials</strong></td>
-    <td align="center"><strong>Core</strong></td>
-    <td align="center"><strong>Beyond</strong></td>
-    <td align="center"><strong>Footer</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/tablet/credential.png" width="100" alt="Tablet Credentials"></td>
-    <td align="center"><img src="docs/tablet/core.png" width="100" alt="Tablet Core"></td>
-    <td align="center"><img src="docs/tablet/beyond.png" width="100" alt="Tablet Beyond"></td>
-    <td align="center"><img src="docs/tablet/footer.png" width="100" alt="Tablet Footer"></td>
-  </tr>
-</table>
+| **Home** | **About Me** | **Career** | **Projects** |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/tablet/home.png" width="100" alt="Tablet Home"> | <img src="docs/tablet/about.png" width="100" alt="Tablet About Me"> | <img src="docs/tablet/career.png" width="100" alt="Tablet Career"> | <img src="docs/tablet/projectwork.png" width="100" alt="Tablet Projects"> |
+| **Credentials** | **Core** | **Beyond** | **Footer** |
+| <img src="docs/tablet/credential.png" width="100" alt="Tablet Credentials"> | <img src="docs/tablet/core.png" width="100" alt="Tablet Core"> | <img src="docs/tablet/beyond.png" width="100" alt="Tablet Beyond"> | <img src="docs/tablet/footer.png" width="100" alt="Tablet Footer"> |
 
 </div>
 
