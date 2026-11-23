@@ -84,11 +84,11 @@ Mobile screenshots document the existing interface and provide visual references
   <tr>
     <td width="50%" align="center">
       <strong>Light Mode</strong><br><br>
-      <img src="docs/phone/light.png" width="100%" alt="Desktop Light Mode">
+      <img src="docs/phone/light.png" width="65%" alt="Mobile Light Mode">
     </td>
     <td width="50%" align="center">
       <strong>Dark Night Mode</strong><br><br>
-      <img src="docs/phone/dark.png" width="100%" alt="Desktop Dark Night Mode">
+      <img src="docs/phone/dark.png" width="65%" alt="Mobile Dark Night Mode">
     </td>
   </tr>
 </table>
