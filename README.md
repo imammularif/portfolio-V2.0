@@ -90,13 +90,11 @@ Mobile screenshots document the main website sections and provide visual referen
 
 <div align="center">
 
-| **Home** | **About Me** | **Career** |
-|:---:|:---:|:---:|
-| <img src="docs/phone/home.png" width="90" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="90" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="90" alt="Mobile Career"> |
-| **Projects** | **Credentials** | **Core** |
-| <img src="docs/phone/projectwork.png" width="90" alt="Mobile Projects"> | <img src="docs/phone/credential.png" width="90" alt="Mobile Credentials"> | <img src="docs/phone/core.png" width="90" alt="Mobile Core"> |
-| **Beyond** | **Footer** | **Hamburger Menu** |
-| <img src="docs/phone/beyond.png" width="90" alt="Mobile Beyond"> | <img src="docs/phone/footer.png" width="90" alt="Mobile Footer"> | <img src="docs/phone/hamburger.png" width="90" alt="Mobile Hamburger Menu"> |
+| **Home** | **About Me** | **Career** | **Projects** | **Credentials** |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="docs/phone/home.png" width="90" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="90" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="90" alt="Mobile Career"> | <img src="docs/phone/projectwork.png" width="90" alt="Mobile Projects"> | <img src="docs/phone/credential.png" width="90" alt="Mobile Credentials"> |
+| **Core** | **Beyond** | **Footer** | **Hamburger Menu** | |
+| <img src="docs/phone/core.png" width="90" alt="Mobile Core"> | <img src="docs/phone/beyond.png" width="90" alt="Mobile Beyond"> | <img src="docs/phone/footer.png" width="90" alt="Mobile Footer"> | <img src="docs/phone/hamburger.png" width="90" alt="Mobile Hamburger Menu"> | |
 
 </div>
 
