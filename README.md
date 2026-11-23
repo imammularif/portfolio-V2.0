@@ -4,11 +4,13 @@
 
 A personal portfolio website showcasing my professional identity, career journey, technical capabilities, projects, education, and continuous development in technology.
 
-Portfolio V2.0 is a continuation and improvement of my previous portfolio. I created this version because I felt that my earlier portfolio still had limitations and did not fully represent my professional growth, technical capabilities, and experience.
+Portfolio V2.0 is a continuation of my first personal portfolio, [My Portfolio 1.0](https://github.com/imammularif/My-Portofolio-1.0), which I originally built from scratch using HTML5, CSS3, and Vanilla JavaScript.
 
-Through this development, I aim to build a stronger and more meaningful platform — one that better reflects who I am, what I have learned, what I have accomplished, and the direction I want to pursue in my professional career.
+As I continued learning and gaining professional experience, I realized that my previous portfolio still had room for improvement. Although it established the foundation of my personal digital presence, I wanted a platform that could better represent my professional growth, technical capabilities, projects, and evolving career direction.
 
-For me, this portfolio is not just a website, but an ongoing journey of learning, improvement, and professional growth.
+That is why I started Portfolio V2.0 — not to leave my previous work behind, but to build upon it. This version represents my effort to strengthen the overall presentation, improve the user experience, refine the responsive interface, and create a more complete representation of my professional journey.
+
+For me, Portfolio V2.0 is more than a website redesign. It is a continuation of what I started, a reflection of what I have learned, and a commitment to keep improving both my work and myself as a technology professional.
 
 ---
 
