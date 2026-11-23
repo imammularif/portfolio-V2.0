@@ -4,7 +4,11 @@
 
 A personal portfolio website showcasing my professional identity, career journey, technical capabilities, projects, education, and continuous development in technology.
 
-Portfolio V2.0 serves as a centralized platform to present my professional profile and demonstrate my experience and practical work through a structured digital experience.
+Portfolio V2.0 is a continuation and improvement of my previous portfolio. I created this version because I felt that my earlier portfolio still had limitations and did not fully represent my professional growth, technical capabilities, and experience.
+
+Through this development, I aim to build a stronger and more meaningful platform — one that better reflects who I am, what I have learned, what I have accomplished, and the direction I want to pursue in my professional career.
+
+For me, this portfolio is not just a website, but an ongoing journey of learning, improvement, and professional growth.
 
 ---
 
