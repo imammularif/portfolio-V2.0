@@ -84,15 +84,17 @@ Mobile screenshots document the existing interface and provide visual references
   <tr>
     <td width="50%" align="center">
       <strong>Light Mode</strong><br><br>
-      <img src="docs/phone/light.png" width="65%" alt="Mobile Light Mode">
+      <img src="docs/phone/light.png" width="50%" alt="Mobile Light Mode">
     </td>
     <td width="50%" align="center">
       <strong>Dark Night Mode</strong><br><br>
-      <img src="docs/phone/dark.png" width="65%" alt="Mobile Dark Night Mode">
+      <img src="docs/phone/dark.png" width="50%" alt="Mobile Dark Night Mode">
     </td>
   </tr>
 </table>
 
+
+<div align="center">
 
 <table>
   <tr>
@@ -119,29 +121,10 @@ Mobile screenshots document the existing interface and provide visual references
     <td align="center"><img src="docs/phone/beyond.png" width="100" alt="Beyond"></td>
     <td align="center"><img src="docs/phone/footer.png" width="100" alt="Footer"></td>
   </tr>
-  <tr>
-    <td align="center"><strong>Light Mode</strong></td>
-    <td align="center"><strong>Dark Mode</strong></td>
-    <td align="center"></td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/phone/light.png" width="100" alt="Light Mode"></td>
-    <td align="center"><img src="docs/phone/dark.png" width="100" alt="Dark Mode"></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
-**Additional Theme Reference**
+</div>
 
-<p align="center">
-  <img src="docs/phone/dark.png" width="140" alt="Mobile Dark Mode">
-</p>
-
-<p align="center">
-  <sub>Existing mobile interface documentation</sub>
-</p>
 
 ### 3.3 Tablet Interface
 
