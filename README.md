@@ -392,38 +392,6 @@ No frontend framework installation is required.
 
 ---
 
-## 12. Development Roadmap
-
-The portfolio will be improved through incremental development.
-
-| Phase | Development | Status |
-|---|---|---|
-| 01 | Repository & Documentation Audit | In Progress |
-| 02 | README & Product Documentation | In Progress |
-| 03 | Desktop Dark Night Redesign | Planned |
-| 04 | Mobile Navigation Redesign | Planned |
-| 05 | UI/UX Improvement | Planned |
-| 06 | Project Documentation & Case Studies | Planned |
-| 07 | Responsive Testing | Planned |
-| 08 | Final Deployment | Planned |
-
----
-
-## 13. Changelog
-
-### Version 1.0 — Documentation Redesign
-
-- Restructured README documentation.
-- Added product vision and design direction.
-- Organized desktop screenshots into a two-column layout.
-- Added mobile screenshot documentation with compact thumbnails.
-- Added tablet interface documentation.
-- Documented existing features and technologies.
-- Added development roadmap.
-- Updated repository structure.
-
----
-
 ## 14. Contact
 
 For professional opportunities, collaboration, or project discussions:
