@@ -109,15 +109,20 @@ Mobile screenshots document the main website sections and provide visual referen
 
 Tablet screenshots document the main website sections and provide visual references for the adaptive interface and future responsive improvements.
 
-<div align="center">
-
-| **Home** | **About Me** | **Career** | **Projects** |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/tablet/home.png" width="100" alt="Tablet Home"> | <img src="docs/tablet/about.png" width="100" alt="Tablet About Me"> | <img src="docs/tablet/career.png" width="100" alt="Tablet Career"> | <img src="docs/tablet/projectwork.png" width="100" alt="Tablet Projects"> |
-| **Credentials** | **Core** | **Beyond** | **Footer** |
-| <img src="docs/tablet/credential.png" width="100" alt="Tablet Credentials"> | <img src="docs/tablet/core.png" width="100" alt="Tablet Core"> | <img src="docs/tablet/beyond.png" width="100" alt="Tablet Beyond"> | <img src="docs/tablet/footer.png" width="100" alt="Tablet Footer"> |
-
-</div>
+<table>
+  <tr>
+    <td width="25%" align="center"><strong>Home</strong><br><br><img src="docs/tablet/home.png" width="85%" alt="Tablet Home"></td>
+    <td width="25%" align="center"><strong>About Me</strong><br><br><img src="docs/tablet/about.png" width="85%" alt="Tablet About Me"></td>
+    <td width="25%" align="center"><strong>Career</strong><br><br><img src="docs/tablet/career.png" width="85%" alt="Tablet Career"></td>
+    <td width="25%" align="center"><strong>Projects</strong><br><br><img src="docs/tablet/projectwork.png" width="85%" alt="Tablet Projects"></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><strong>Credentials</strong><br><br><img src="docs/tablet/credential.png" width="85%" alt="Tablet Credentials"></td>
+    <td width="25%" align="center"><strong>Core</strong><br><br><img src="docs/tablet/core.png" width="85%" alt="Tablet Core"></td>
+    <td width="25%" align="center"><strong>Beyond</strong><br><br><img src="docs/tablet/beyond.png" width="85%" alt="Tablet Beyond"></td>
+    <td width="25%" align="center"><strong>Footer</strong><br><br><img src="docs/tablet/footer.png" width="85%" alt="Tablet Footer"></td>
+  </tr>
+</table>
 
 ### 3.4 Responsive Development
 
