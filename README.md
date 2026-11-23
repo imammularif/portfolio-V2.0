@@ -1,62 +1,137 @@
-# Imammul_arf. — Personal Portfolio
+# IMAMMUL ARIF — PERSONAL PORTFOLIO
 
-A personal portfolio showcasing my **professional journey, technical skills, projects, and interests in Data & Technology**.
+**Professional Portfolio Platform | Product Operations · Data Analytics · SQL Specialist**
 
-🌐 **Live Website:**  
+A personal digital portfolio documenting my professional journey, technical capabilities, work experience, projects, and continuous development in technology.
+
+This platform serves as a centralized place to explore my professional profile, career background, technical expertise, and practical projects.
+
+---
+
+## 1. Project Overview
+
+**Imammul Arif — Personal Portfolio** is a personal portfolio website designed to present professional identity, experience, technical capabilities, and project documentation in a structured and accessible digital environment.
+
+The platform focuses on:
+
+- Professional Profile
+- Career Journey
+- Technical Skills
+- Featured Projects
+- Credentials & Education
+- Professional Interests
+- Contact Information
+
+**Project Status:** Existing Portfolio — Redesign & Documentation Phase
+
+**Live Website:**  
 https://imammularif.github.io/portfolio-V2.0/
 
----
-
-## ✨ About
-
-Hi, I'm **Imammul Arif**.
-
-I'm an Informatics graduate with professional experience in **Product Operations, Digital Banking Operations, Incident Management, Application Support, SQL, and Data Validation**.
-
-My professional interests focus on **Data Analytics, Product Operations, SQL & Database Management, and Data Engineering**. I continuously develop my technical capabilities through hands-on projects, professional experience, and independent learning.
-
-This portfolio serves as a platform to showcase my **technical skills, projects, educational background, professional experience, and continuous development in technology**.
+**Repository:**  
+https://github.com/imammularif/portfolio-V2.0
 
 ---
 
-## 🚀 Features
+## 2. Product Vision
 
-- Responsive design
-- Clean and minimal interface
-- Light / Dark mode
-- Smooth scrolling
-- Scroll reveal animations
-- Active navigation state
-- Real-time WIB clock
-- Responsive mobile navigation
-- Project showcase
-- Skills and tools section
-- Education and professional journey timeline
-- Contact section
-- Custom favicon
-- GitHub Pages deployment
+Develop a professional digital portfolio that provides a clear, structured, and consistent experience across desktop, tablet, and mobile devices.
 
----
+### Design Principles
 
-## 📸 Screenshots
+- Professional and minimalistic interface.
+- Dark Night visual experience for desktop.
+- Consistent typography and visual hierarchy.
+- Responsive layouts across different screen sizes.
+- Intuitive navigation and user interaction.
+- Structured project presentation and documentation.
 
-### ☀️ Light Mode
+### Design Direction
 
-![Portfolio Light Mode](https://github.com/imammularif/portfolio-V2.0/blob/main/docs/portfolio-light.png)
-
-### 🌙 Dark Mode
-
-![Portfolio Dark Mode](https://github.com/imammularif/portfolio-V2.0/blob/main/docs/portfolio-dark.png)
+| Platform | Design Direction |
+|---|---|
+| Desktop | Dark Night Theme |
+| Tablet | Responsive Adaptive Layout |
+| Mobile | Mobile Navigation with Organized Sections |
 
 ---
 
-## 🛠️ Built With
+## 3. UI/UX Design Documentation
+
+This section documents the visual interface and responsive behavior of the portfolio.
+
+### 3.1 Desktop Interface
+
+**Current Design — Light Mode**
+
+![Desktop Light Mode](docs/portfolio-light.png)
+
+**Current Design — Dark Mode**
+
+![Desktop Dark Mode](docs/portfolio-dark.png)
+
+### 3.2 Mobile Interface
+
+Mobile screenshots document the existing interface and serve as references for future redesign.
+
+| Section | Screenshot |
+|---|---|
+| Home | `docs/phone/home.png` |
+| About Me | `docs/phone/aboutme.png` |
+| Career | `docs/phone/career.png` |
+| Projects | `docs/phone/projectwork.png` |
+| Credentials | `docs/phone/credential.png` |
+| Core | `docs/phone/core.png` |
+| Beyond | `docs/phone/beyond.png` |
+| Footer | `docs/phone/footer.png` |
+| Light Mode | `docs/phone/light.png` |
+| Dark Mode | `docs/phone/dark.png` |
+
+### 3.3 Tablet Interface
+
+**Current Tablet Reference**
+
+![Tablet Interface](docs/tablet/Screenshot%202026-11-23%20174838.png)
+
+### 3.4 Responsive Development
+
+Future improvements will focus on:
+
+- Consistent navigation across devices.
+- Better content spacing and readability.
+- Responsive project presentation.
+- Optimized mobile navigation.
+- Consistent light and dark theme behavior.
+
+---
+
+## 4. Features & Functionalities
+
+The existing portfolio includes:
+
+- Personal Profile Presentation
+- Professional Experience
+- Education Background
+- Technical Skills Showcase
+- Featured Projects
+- Credentials & Achievements
+- Light and Dark Mode
+- Responsive Navigation
+- Real-Time WIB Clock
+- Active Navigation State
+- Scroll Reveal Animations
+- Contact Information
+
+Features will be reviewed and improved progressively during the redesign process.
+
+---
+
+## 5. Technology Stack
 
 ### Frontend Development
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla JavaScript)
 
 ### Data & Database Technologies
 
@@ -84,34 +159,9 @@ This portfolio serves as a platform to showcase my **technical skills, projects,
 
 ---
 
-## 📂 Project Structure
+## 6. Featured Projects
 
-```text
-portfolio-V2.0/
-│
-├── index.html
-├── index.css
-├── favicon.png
-│
-├── IMG/
-│   ├── me.jpg
-│   ├── project-1.jpg
-│   ├── project-2.jpg
-│   └── ...
-│
-├── docs/
-│   └── screenshots/
-│       ├── portfolio-light.png
-│       └── portfolio-dark.png
-│
-└── README.md
-```
-
----
-
-## 📌 Featured Projects
-
-### 1. Smart Attendance with Face Recognition
+### 6.1 Smart Attendance System
 
 A university final project focused on developing an attendance system using face recognition technology.
 
@@ -121,41 +171,76 @@ A university final project focused on developing an attendance system using face
 - LBPH
 - Face Recognition
 
-### 2. Student Assessment Website
+### 6.2 Student Assessment Website
 
-A web-based student assessment system developed as part of my university internship project. The application helps manage and present student assessment data in a structured digital environment.
+A web-based student assessment system developed as part of a university internship project.
+
+The application helps manage and present student assessment data in a structured digital environment.
 
 **Technologies:**
 - HTML
 - CSS
-- Web Development
+- JavaScript
 - Database
+
+### 6.3 YouTube Analytics Dashboard
+
+A data analytics project focused on exploring and visualizing YouTube-related data.
+
+**Technologies:**
+- Data Analytics
+- Looker Studio
+- Data Visualization
+
+### 6.4 ETL Data Pipeline
+
+A practical project exploring data extraction, transformation, and loading processes.
+
+**Technologies:**
+- Python
+- SQL
+- Data Processing
+
+### 6.5 TOPUPKU
+
+A personal web application project focused on digital game top-up services.
+
+**Technologies:**
+- Next.js
+- TypeScript
+- Supabase
+- Resend
 
 ---
 
-## 🎓 Education & Professional Journey
-
-My journey began with my early education in **Dompu**, continued through my Informatics studies at **Universitas Teknologi Yogyakarta**, and developed further through professional experience in Jakarta.
+## 7. Education & Professional Journey
 
 ### Education
 
-- **SD Negeri 1 Dompu**
-- **SMP Negeri 1 Dompu**
-- **SMA Negeri 1 Dompu — Science 1**
-- **Universitas Teknologi Yogyakarta — Informatics**
+- SD Negeri 1 Dompu
+- SMP Negeri 1 Dompu
+- SMA Negeri 1 Dompu — Science
+- Universitas Teknologi Yogyakarta — Bachelor of Informatics
 
-### Professional Journey
+### Professional Experience
 
-- **PLN Icon Plus — Technical Support**
-- **Independent Learning & Technical Upskilling**
-- **Bank Raya Indonesia — Product Operations / Digital Problem Management**
-- **Current Direction — Product Operations, Data Analytics & SQL**
+**PLN Icon Plus — Technical Support**
+
+Technical support experience involving troubleshooting and operational support.
+
+**Bank Raya Indonesia — Product Operations / Digital Problem Management**
+
+Experience supporting digital banking operations, incident management, payment services, and data validation.
+
+### Professional Direction
+
+Product Operations | Data Analyst | SQL Specialist
 
 ---
 
-## 📊 Professional Focus
+## 8. Professional Focus
 
-I'm interested in professional opportunities and projects related to:
+Areas of professional interest:
 
 - Product Operations
 - Data Analytics
@@ -166,15 +251,11 @@ I'm interested in professional opportunities and projects related to:
 - Application Support
 - Data Engineering
 - Cloud Technology
-- AI / Machine Learning
+- AI & Machine Learning
 
 ---
 
-## 📚 Continuous Learning
-
-I believe continuous learning and practical experience are essential for professional growth.
-
-I'm continuously developing my technical capabilities through independent learning, hands-on projects, and exploration of new technologies.
+## 9. Continuous Learning
 
 Current learning areas include:
 
@@ -190,19 +271,109 @@ Current learning areas include:
 
 ---
 
-## 📫 Contact
+## 10. Project Structure
 
-If you'd like to connect, discuss a project, or explore professional opportunities, feel free to reach out.
+```text
+portfolio-V2.0/
+│
+├── index.html
+├── index.css
+├── script.js
+├── README.md
+├── CV_IMAMMUL_ARIF_2026.pdf
+│
+├── IMG/
+│   ├── me.jpeg
+│   ├── favicon_io.zip
+│   ├── favicon_io/
+│   └── PROJECT/
+│       ├── 01.png
+│       ├── 02.png
+│       └── ...
+│
+└── docs/
+    ├── portfolio-light.png
+    ├── portfolio-dark.png
+    │
+    ├── phone/
+    │   ├── home.png
+    │   ├── aboutme.png
+    │   ├── career.png
+    │   ├── projectwork.png
+    │   └── ...
+    │
+    └── tablet/
+        └── Screenshot 2026-11-23 174838.png
+```
+
+---
+
+## 11. Installation & Usage
+
+Clone the repository:
+
+```bash
+git clone https://github.com/imammularif/portfolio-V2.0.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio-V2.0
+```
+
+Run the website using a local development server or open `index.html` in your browser.
+
+No frontend framework installation is required.
+
+---
+
+## 12. Development Roadmap
+
+The portfolio will be improved through incremental development.
+
+| Phase | Development | Status |
+|---|---|---|
+| 01 | Repository & Documentation Audit | In Progress |
+| 02 | README & Product Documentation | In Progress |
+| 03 | Desktop Dark Night Redesign | Planned |
+| 04 | Mobile Navigation Redesign | Planned |
+| 05 | UI/UX Improvement | Planned |
+| 06 | Project Documentation & Case Studies | Planned |
+| 07 | Responsive Testing | Planned |
+| 08 | Final Deployment | Planned |
+
+---
+
+## 13. Changelog
+
+### Version 1.0 — Documentation Redesign
+
+- Restructured README documentation.
+- Added product vision and design direction.
+- Added desktop, tablet, and mobile documentation.
+- Documented existing features and technologies.
+- Added development roadmap.
+- Updated repository structure.
+
+---
+
+## 14. Contact
+
+For professional opportunities, collaboration, or project discussions:
 
 **Email:**  
-[imammularif@gmail.com](mailto:imammularif@gmail.com)
+imammularif@gmail.com
 
 **Portfolio:**  
 https://imammularif.github.io/portfolio-V2.0/
 
+**GitHub:**  
+https://github.com/imammularif
+
 ---
 
-## 📄 License
+## 15. License
 
 This portfolio is a personal project created and maintained by **Imammul Arif**.
 
