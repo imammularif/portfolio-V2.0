@@ -88,16 +88,22 @@ The desktop documentation presents both available themes side by side for visual
 
 Mobile screenshots document the main website sections and provide visual references for mobile navigation, content organization, and responsive improvements.
 
-<div align="center">
-
-| **Home** | **About Me** | **Career** | **Projects** | **Credentials** |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="docs/phone/home.png" width="90" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="90" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="90" alt="Mobile Career"> | <img src="docs/phone/projectwork.png" width="90" alt="Mobile Projects"> | <img src="docs/phone/credential.png" width="90" alt="Mobile Credentials"> |
-| **Core** | **Beyond** | **Footer** | **Hamburger Menu** | |
-| <img src="docs/phone/core.png" width="90" alt="Mobile Core"> | <img src="docs/phone/beyond.png" width="90" alt="Mobile Beyond"> | <img src="docs/phone/footer.png" width="90" alt="Mobile Footer"> | <img src="docs/phone/hamburger.png" width="90" alt="Mobile Hamburger Menu"> | |
-
-</div>
-
+<table>
+  <tr>
+    <td width="20%" align="center"><strong>Home</strong><br><br><img src="docs/phone/home.png" width="85%" alt="Mobile Home"></td>
+    <td width="20%" align="center"><strong>About Me</strong><br><br><img src="docs/phone/aboutme.png" width="85%" alt="Mobile About Me"></td>
+    <td width="20%" align="center"><strong>Career</strong><br><br><img src="docs/phone/career.png" width="85%" alt="Mobile Career"></td>
+    <td width="20%" align="center"><strong>Projects</strong><br><br><img src="docs/phone/projectwork.png" width="85%" alt="Mobile Projects"></td>
+    <td width="20%" align="center"><strong>Credentials</strong><br><br><img src="docs/phone/credential.png" width="85%" alt="Mobile Credentials"></td>
+  </tr>
+  <tr>
+    <td width="20%" align="center"><strong>Core</strong><br><br><img src="docs/phone/core.png" width="85%" alt="Mobile Core"></td>
+    <td width="20%" align="center"><strong>Beyond</strong><br><br><img src="docs/phone/beyond.png" width="85%" alt="Mobile Beyond"></td>
+    <td width="20%" align="center"><strong>Footer</strong><br><br><img src="docs/phone/footer.png" width="85%" alt="Mobile Footer"></td>
+    <td width="20%" align="center"><strong>Hamburger Menu</strong><br><br><img src="docs/phone/hamburger.png" width="85%" alt="Mobile Hamburger Menu"></td>
+    <td width="20%"></td>
+  </tr>
+</table>
 
 ### 3.3 Tablet Interface
 
