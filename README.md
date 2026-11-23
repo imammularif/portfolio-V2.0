@@ -127,7 +127,7 @@ Mobile screenshots document the main website sections and provide visual referen
       <img src="docs/phone/footer.png" width="85%" alt="Mobile Footer">
     </td>
     <td width="33.33%" align="center">
-      <strong>Hamburger Menu</strong><br><br>
+      <strong>Hamburger</strong><br><br>
       <img src="docs/phone/hamburger.png" width="85%" alt="Mobile Hamburger Menu">
     </td>
   </tr>
