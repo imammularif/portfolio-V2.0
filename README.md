@@ -1,28 +1,29 @@
-# IMAMMUL ARIF — PERSONAL PORTFOLIO
+# IMAMMUL ARIF — PORTFOLIO V2.0
 
-**Professional Portfolio Platform | Product Operations · Data Analytics · SQL Specialist**
+**Personal Portfolio Website | Product Operations · Data Analytics · SQL Specialist**
 
-A personal digital portfolio documenting my professional journey, technical capabilities, work experience, projects, and continuous development in technology.
+A personal portfolio website showcasing my professional identity, career journey, technical capabilities, projects, education, and continuous development in technology.
 
-This platform serves as a centralized place to explore my professional profile, career background, technical expertise, and practical projects.
+Portfolio V2.0 serves as a centralized platform to present my professional profile and demonstrate my experience and practical work through a structured digital experience.
 
 ---
 
 ## 1. Project Overview
 
-**Imammul Arif — Personal Portfolio** is a personal portfolio website designed to present professional identity, experience, technical capabilities, and project documentation in a structured and accessible digital environment.
+**Imammul Arif — Portfolio V2.0** is a personal portfolio website developed to present my professional background, work experience, technical skills, and project documentation.
 
-The platform focuses on:
+The website is designed to provide an accessible and organized overview of my professional journey, with a focus on:
 
 - Professional Profile
 - Career Journey
 - Technical Skills
 - Featured Projects
-- Credentials & Education
+- Education & Credentials
 - Professional Interests
 - Contact Information
 
-**Project Status:** Existing Portfolio — Redesign & Documentation Phase
+**Project Version:** V2.0  
+**Project Status:** Existing Website — UI/UX Refinement & Documentation
 
 **Live Website:**  
 https://imammularif.github.io/portfolio-V2.0/
@@ -34,30 +35,31 @@ https://github.com/imammularif/portfolio-V2.0
 
 ## 2. Product Vision
 
-Develop a professional digital portfolio that provides a clear, structured, and consistent experience across desktop, tablet, and mobile devices.
+Develop and maintain a professional digital portfolio that presents my background and capabilities through a clear, structured, and consistent experience across desktop, tablet, and mobile devices.
 
 ### Design Principles
 
 - Professional and minimalistic interface.
-- Dark Night visual experience for desktop.
-- Consistent typography and visual hierarchy.
+- Clear typography and visual hierarchy.
+- Consistent visual identity.
 - Responsive layouts across different screen sizes.
 - Intuitive navigation and user interaction.
-- Structured project presentation and documentation.
+- Structured presentation of projects and professional information.
+- Maintainable and lightweight implementation.
 
 ### Design Direction
 
 | Platform | Design Direction |
 |---|---|
-| Desktop | Dark Night Theme |
+| Desktop | Professional Interface with Light & Dark Themes |
 | Tablet | Responsive Adaptive Layout |
-| Mobile | Mobile Navigation with Organized Sections |
+| Mobile | Mobile-Friendly Navigation with Organized Sections |
 
 ---
 
 ## 3. UI/UX Design Documentation
 
-This section documents the existing visual interface and responsive behavior of the portfolio across desktop, mobile, and tablet devices. Screenshots serve as visual references for the upcoming redesign.
+This section documents the current visual interface of Portfolio V2.0 across desktop, mobile, and tablet devices. The screenshots serve as visual references for interface evaluation and future improvements.
 
 ### 3.1 Desktop Interface
 
@@ -67,18 +69,18 @@ The desktop documentation presents both available themes side by side for visual
   <tr>
     <td width="50%" align="center">
       <strong>Light Mode</strong><br><br>
-      <img src="docs/portfolio-light.png" width="85%" alt="Desktop Light Mode">
+      <img src="docs/portfolio-light.png" width="85%" alt="Portfolio V2.0 Desktop Light Mode">
     </td>
     <td width="50%" align="center">
       <strong>Dark Night Mode</strong><br><br>
-      <img src="docs/portfolio-dark.png" width="85%" alt="Desktop Dark Night Mode">
+      <img src="docs/portfolio-dark.png" width="85%" alt="Portfolio V2.0 Desktop Dark Night Mode">
     </td>
   </tr>
 </table>
 
 ### 3.2 Mobile Interface
 
-Mobile screenshots document the existing interface and provide visual references for future navigation and responsive improvements.
+Mobile screenshots document the main website sections and provide visual references for mobile navigation, content organization, and responsive improvements.
 
 <div align="center">
 
@@ -113,7 +115,7 @@ Mobile screenshots document the existing interface and provide visual references
 
 ### 3.3 Tablet Interface
 
-Tablet screenshots document the existing adaptive interface and provide references for future responsive improvements.
+Tablet screenshots document the main website sections and provide visual references for the adaptive interface and future responsive improvements.
 
 <div align="center">
 
@@ -150,26 +152,18 @@ Tablet screenshots document the existing adaptive interface and provide referenc
 
 Future improvements will focus on:
 
-- Consistent navigation across devices.
+- Consistent navigation across desktop, tablet, and mobile.
 - Better content spacing and readability.
-- Responsive project presentation.
-- Optimized mobile navigation.
-- Consistent light and dark theme behavior.
-### 3.4 Responsive Development
-
-Future improvements will focus on:
-
-- Consistent navigation across devices.
-- Better content spacing and readability.
-- Responsive project presentation.
-- Optimized mobile navigation.
-- Consistent light and dark theme behavior.
+- Responsive project and experience presentation.
+- Optimized mobile navigation and interactions.
+- Consistent visual behavior across supported themes.
+- Improved accessibility and usability.
 
 ---
 
 ## 4. Features & Functionalities
 
-The existing portfolio includes:
+Portfolio V2.0 currently includes:
 
 - Personal Profile Presentation
 - Professional Experience
@@ -184,11 +178,27 @@ The existing portfolio includes:
 - Scroll Reveal Animations
 - Contact Information
 
-Features will be reviewed and improved progressively during the redesign process.
+Features will be reviewed, refined, and improved progressively as part of the ongoing development process.
 
 ---
 
-## 5. Project Structure
+## 5. Technology Stack
+
+The portfolio uses a lightweight frontend stack:
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling, layout, and responsive design |
+| Vanilla JavaScript | Interactions and dynamic functionality |
+| Git & GitHub | Version control and repository management |
+| GitHub Pages | Website hosting and deployment |
+
+No frontend framework is required.
+
+---
+
+## 6. Project Structure
 
 ```text
 portfolio-V2.0/
@@ -233,32 +243,43 @@ portfolio-V2.0/
     │   └── dark.png
     │
     └── tablet/
-        └── Screenshot 2026-11-23 174838.png
+        ├── home.png
+        ├── about.png
+        ├── career.png
+        ├── projectwork.png
+        ├── credential.png
+        ├── core.png
+        ├── beyond.png
+        ├── footer.png
+        ├── light.png
+        └── dark.png
 ```
 
 ---
 
-## 6. Installation & Usage
+## 7. Installation & Usage
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/imammularif/portfolio-V2.0.git
 ```
 
-Navigate to the project directory:
+### Navigate to the Project Directory
 
 ```bash
 cd portfolio-V2.0
 ```
 
-Run the website using a local development server or open `index.html` in your browser.
+### Run the Website
 
-No frontend framework installation is required.
+Open `index.html` directly in your browser or use a local development server.
+
+No frontend framework or additional package installation is required.
 
 ---
 
-## 7. Contact
+## 8. Contact
 
 For professional opportunities, collaboration, or project discussions:
 
@@ -273,7 +294,7 @@ https://github.com/imammularif
 
 ---
 
-## 8. License
+## 9. License
 
 This portfolio is a personal project created and maintained by **Imammul Arif**.
 
