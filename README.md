@@ -84,6 +84,8 @@ The desktop documentation presents both available themes side by side for visual
   </tr>
 </table>
 
+
+
 ### 3.2 Mobile Interface
 
 Mobile screenshots document the main website sections and provide visual references for mobile navigation, content organization, and responsive improvements.
@@ -95,29 +97,36 @@ Mobile screenshots document the main website sections and provide visual referen
     <td align="center"><strong>Home</strong></td>
     <td align="center"><strong>About Me</strong></td>
     <td align="center"><strong>Career</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/phone/home.png" width="90" alt="Mobile Home"></td>
+    <td align="center"><img src="docs/phone/aboutme.png" width="90" alt="Mobile About Me"></td>
+    <td align="center"><img src="docs/phone/career.png" width="90" alt="Mobile Career"></td>
+  </tr>
+  <tr>
     <td align="center"><strong>Projects</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/phone/home.png" width="100" alt="Mobile Home"></td>
-    <td align="center"><img src="docs/phone/aboutme.png" width="100" alt="Mobile About Me"></td>
-    <td align="center"><img src="docs/phone/career.png" width="100" alt="Mobile Career"></td>
-    <td align="center"><img src="docs/phone/projectwork.png" width="100" alt="Mobile Projects"></td>
-  </tr>
-  <tr>
     <td align="center"><strong>Credentials</strong></td>
     <td align="center"><strong>Core</strong></td>
-    <td align="center"><strong>Beyond</strong></td>
-    <td align="center"><strong>Footer</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/phone/credential.png" width="100" alt="Mobile Credentials"></td>
-    <td align="center"><img src="docs/phone/core.png" width="100" alt="Mobile Core"></td>
-    <td align="center"><img src="docs/phone/beyond.png" width="100" alt="Mobile Beyond"></td>
-    <td align="center"><img src="docs/phone/footer.png" width="100" alt="Mobile Footer"></td>
+    <td align="center"><img src="docs/phone/projectwork.png" width="90" alt="Mobile Projects"></td>
+    <td align="center"><img src="docs/phone/credential.png" width="90" alt="Mobile Credentials"></td>
+    <td align="center"><img src="docs/phone/core.png" width="90" alt="Mobile Core"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Beyond</strong></td>
+    <td align="center"><strong>Footer</strong></td>
+    <td align="center"><strong>Hamburger Menu</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/phone/beyond.png" width="90" alt="Mobile Beyond"></td>
+    <td align="center"><img src="docs/phone/footer.png" width="90" alt="Mobile Footer"></td>
+    <td align="center"><img src="docs/phone/hamburger.png" width="90" alt="Mobile Hamburger Menu"></td>
   </tr>
 </table>
 
 </div>
+
 
 ### 3.3 Tablet Interface
 
