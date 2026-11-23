@@ -57,40 +57,58 @@ Develop a professional digital portfolio that provides a clear, structured, and 
 
 ## 3. UI/UX Design Documentation
 
-This section documents the visual interface and responsive behavior of the portfolio.
+This section documents the existing visual interface and responsive behavior of the portfolio. Screenshots serve as references for the upcoming redesign.
 
 ### 3.1 Desktop Interface
 
-**Current Design — Light Mode**
+The desktop documentation presents both available themes side by side for easier visual comparison.
 
-![Desktop Light Mode](docs/portfolio-light.png)
-
-**Current Design — Dark Mode**
-
-![Desktop Dark Mode](docs/portfolio-dark.png)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Light Mode</strong><br><br>
+      <img src="docs/portfolio-light.png" width="100%" alt="Desktop Light Mode">
+    </td>
+    <td width="50%" align="center">
+      <strong>Dark Night Mode</strong><br><br>
+      <img src="docs/portfolio-dark.png" width="100%" alt="Desktop Dark Night Mode">
+    </td>
+  </tr>
+</table>
 
 ### 3.2 Mobile Interface
 
-Mobile screenshots document the existing interface and serve as references for future redesign.
+Mobile screenshots document the existing interface and provide visual references for future navigation and responsive improvements.
 
-| Section | Screenshot |
-|---|---|
-| Home | `docs/phone/home.png` |
-| About Me | `docs/phone/aboutme.png` |
-| Career | `docs/phone/career.png` |
-| Projects | `docs/phone/projectwork.png` |
-| Credentials | `docs/phone/credential.png` |
-| Core | `docs/phone/core.png` |
-| Beyond | `docs/phone/beyond.png` |
-| Footer | `docs/phone/footer.png` |
-| Light Mode | `docs/phone/light.png` |
-| Dark Mode | `docs/phone/dark.png` |
+| Home | About Me | Career |
+|:---:|:---:|:---:|
+| <img src="docs/phone/home.png" width="115" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="115" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="115" alt="Mobile Career"> |
+| Projects | Credentials | Core |
+| <img src="docs/phone/projectwork.png" width="115" alt="Mobile Projects"> | <img src="docs/phone/credential.png" width="115" alt="Mobile Credentials"> | <img src="docs/phone/core.png" width="115" alt="Mobile Core"> |
+| Beyond | Footer | Light Mode |
+| <img src="docs/phone/beyond.png" width="115" alt="Mobile Beyond"> | <img src="docs/phone/footer.png" width="115" alt="Mobile Footer"> | <img src="docs/phone/light.png" width="115" alt="Mobile Light Mode"> |
+
+**Additional Theme Reference**
+
+<p align="center">
+  <img src="docs/phone/dark.png" width="140" alt="Mobile Dark Mode">
+</p>
+
+<p align="center">
+  <sub>Existing mobile interface documentation</sub>
+</p>
 
 ### 3.3 Tablet Interface
 
-**Current Tablet Reference**
+The tablet screenshot documents the current adaptive layout and serves as a reference for responsive improvements.
 
-![Tablet Interface](docs/tablet/Screenshot%202026-11-23%20174838.png)
+<p align="center">
+  <img src="docs/tablet/Screenshot%202026-11-23%20174838.png" width="55%" alt="Tablet Interface">
+</p>
+
+<p align="center">
+  <sub>Current Tablet Interface</sub>
+</p>
 
 ### 3.4 Responsive Development
 
@@ -166,6 +184,7 @@ Features will be reviewed and improved progressively during the redesign process
 A university final project focused on developing an attendance system using face recognition technology.
 
 **Technologies:**
+
 - Python
 - OpenCV
 - LBPH
@@ -178,6 +197,7 @@ A web-based student assessment system developed as part of a university internsh
 The application helps manage and present student assessment data in a structured digital environment.
 
 **Technologies:**
+
 - HTML
 - CSS
 - JavaScript
@@ -188,6 +208,7 @@ The application helps manage and present student assessment data in a structured
 A data analytics project focused on exploring and visualizing YouTube-related data.
 
 **Technologies:**
+
 - Data Analytics
 - Looker Studio
 - Data Visualization
@@ -197,6 +218,7 @@ A data analytics project focused on exploring and visualizing YouTube-related da
 A practical project exploring data extraction, transformation, and loading processes.
 
 **Technologies:**
+
 - Python
 - SQL
 - Data Processing
@@ -206,6 +228,7 @@ A practical project exploring data extraction, transformation, and loading proce
 A personal web application project focused on digital game top-up services.
 
 **Technologies:**
+
 - Next.js
 - TypeScript
 - Supabase
@@ -234,7 +257,7 @@ Experience supporting digital banking operations, incident management, payment s
 
 ### Professional Direction
 
-Product Operations | Data Analyst | SQL Specialist
+**Product Operations | Data Analyst | SQL Specialist**
 
 ---
 
@@ -286,6 +309,14 @@ portfolio-V2.0/
 │   ├── me.jpeg
 │   ├── favicon_io.zip
 │   ├── favicon_io/
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   └── site.webmanifest
+│   │
 │   └── PROJECT/
 │       ├── 01.png
 │       ├── 02.png
@@ -300,7 +331,12 @@ portfolio-V2.0/
     │   ├── aboutme.png
     │   ├── career.png
     │   ├── projectwork.png
-    │   └── ...
+    │   ├── credential.png
+    │   ├── core.png
+    │   ├── beyond.png
+    │   ├── footer.png
+    │   ├── light.png
+    │   └── dark.png
     │
     └── tablet/
         └── Screenshot 2026-11-23 174838.png
@@ -351,7 +387,9 @@ The portfolio will be improved through incremental development.
 
 - Restructured README documentation.
 - Added product vision and design direction.
-- Added desktop, tablet, and mobile documentation.
+- Organized desktop screenshots into a two-column layout.
+- Added mobile screenshot documentation with compact thumbnails.
+- Added tablet interface documentation.
 - Documented existing features and technologies.
 - Added development roadmap.
 - Updated repository structure.
