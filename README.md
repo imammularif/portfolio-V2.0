@@ -80,6 +80,20 @@ The desktop documentation presents both available themes side by side for easier
 
 Mobile screenshots document the existing interface and provide visual references for future navigation and responsive improvements.
 
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Light Mode</strong><br><br>
+      <img src="docs/phone/light.png" width="100%" alt="Desktop Light Mode">
+    </td>
+    <td width="50%" align="center">
+      <strong>Dark Night Mode</strong><br><br>
+      <img src="docs/phone/dark.png" width="100%" alt="Desktop Dark Night Mode">
+    </td>
+  </tr>
+</table>
+
+
 | Home | About Me | Career |
 |:---:|:---:|:---:|
 | <img src="docs/phone/home.png" width="115" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="115" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="115" alt="Mobile Career"> |
