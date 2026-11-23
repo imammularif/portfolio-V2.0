@@ -57,21 +57,21 @@ Develop a professional digital portfolio that provides a clear, structured, and 
 
 ## 3. UI/UX Design Documentation
 
-This section documents the existing visual interface and responsive behavior of the portfolio. Screenshots serve as references for the upcoming redesign.
+This section documents the existing visual interface and responsive behavior of the portfolio across desktop, mobile, and tablet devices. Screenshots serve as visual references for the upcoming redesign.
 
 ### 3.1 Desktop Interface
 
-The desktop documentation presents both available themes side by side for easier visual comparison.
+The desktop documentation presents both available themes side by side for visual comparison.
 
 <table>
   <tr>
     <td width="50%" align="center">
       <strong>Light Mode</strong><br><br>
-      <img src="docs/portfolio-light.png" width="100%" alt="Desktop Light Mode">
+      <img src="docs/portfolio-light.png" width="85%" alt="Desktop Light Mode">
     </td>
     <td width="50%" align="center">
       <strong>Dark Night Mode</strong><br><br>
-      <img src="docs/portfolio-dark.png" width="100%" alt="Desktop Dark Night Mode">
+      <img src="docs/portfolio-dark.png" width="85%" alt="Desktop Dark Night Mode">
     </td>
   </tr>
 </table>
@@ -79,20 +79,6 @@ The desktop documentation presents both available themes side by side for easier
 ### 3.2 Mobile Interface
 
 Mobile screenshots document the existing interface and provide visual references for future navigation and responsive improvements.
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <strong>Light Mode</strong><br><br>
-      <img src="docs/phone/light.png" width="50%" alt="Mobile Light Mode">
-    </td>
-    <td width="50%" align="center">
-      <strong>Dark Night Mode</strong><br><br>
-      <img src="docs/phone/dark.png" width="50%" alt="Mobile Dark Night Mode">
-    </td>
-  </tr>
-</table>
-
 
 <div align="center">
 
@@ -104,10 +90,10 @@ Mobile screenshots document the existing interface and provide visual references
     <td align="center"><strong>Projects</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/phone/home.png" width="100" alt="Home"></td>
-    <td align="center"><img src="docs/phone/aboutme.png" width="100" alt="About Me"></td>
-    <td align="center"><img src="docs/phone/career.png" width="100" alt="Career"></td>
-    <td align="center"><img src="docs/phone/projectwork.png" width="100" alt="Projects"></td>
+    <td align="center"><img src="docs/phone/home.png" width="100" alt="Mobile Home"></td>
+    <td align="center"><img src="docs/phone/aboutme.png" width="100" alt="Mobile About Me"></td>
+    <td align="center"><img src="docs/phone/career.png" width="100" alt="Mobile Career"></td>
+    <td align="center"><img src="docs/phone/projectwork.png" width="100" alt="Mobile Projects"></td>
   </tr>
   <tr>
     <td align="center"><strong>Credentials</strong></td>
@@ -116,28 +102,59 @@ Mobile screenshots document the existing interface and provide visual references
     <td align="center"><strong>Footer</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/phone/credential.png" width="100" alt="Credentials"></td>
-    <td align="center"><img src="docs/phone/core.png" width="100" alt="Core"></td>
-    <td align="center"><img src="docs/phone/beyond.png" width="100" alt="Beyond"></td>
-    <td align="center"><img src="docs/phone/footer.png" width="100" alt="Footer"></td>
+    <td align="center"><img src="docs/phone/credential.png" width="100" alt="Mobile Credentials"></td>
+    <td align="center"><img src="docs/phone/core.png" width="100" alt="Mobile Core"></td>
+    <td align="center"><img src="docs/phone/beyond.png" width="100" alt="Mobile Beyond"></td>
+    <td align="center"><img src="docs/phone/footer.png" width="100" alt="Mobile Footer"></td>
   </tr>
 </table>
 
 </div>
 
-
 ### 3.3 Tablet Interface
 
-The tablet screenshot documents the current adaptive layout and serves as a reference for responsive improvements.
+Tablet screenshots document the existing adaptive interface and provide references for future responsive improvements.
 
-<p align="center">
-  <img src="docs/tablet/Screenshot%202026-11-23%20174838.png" width="55%" alt="Tablet Interface">
-</p>
+<div align="center">
 
-<p align="center">
-  <sub>Current Tablet Interface</sub>
-</p>
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>About Me</strong></td>
+    <td align="center"><strong>Career</strong></td>
+    <td align="center"><strong>Projects</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/tablet/home.png" width="100" alt="Tablet Home"></td>
+    <td align="center"><img src="docs/tablet/about.png" width="100" alt="Tablet About Me"></td>
+    <td align="center"><img src="docs/tablet/career.png" width="100" alt="Tablet Career"></td>
+    <td align="center"><img src="docs/tablet/projectwork.png" width="100" alt="Tablet Projects"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Credentials</strong></td>
+    <td align="center"><strong>Core</strong></td>
+    <td align="center"><strong>Beyond</strong></td>
+    <td align="center"><strong>Footer</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/tablet/credential.png" width="100" alt="Tablet Credentials"></td>
+    <td align="center"><img src="docs/tablet/core.png" width="100" alt="Tablet Core"></td>
+    <td align="center"><img src="docs/tablet/beyond.png" width="100" alt="Tablet Beyond"></td>
+    <td align="center"><img src="docs/tablet/footer.png" width="100" alt="Tablet Footer"></td>
+  </tr>
+</table>
 
+</div>
+
+### 3.4 Responsive Development
+
+Future improvements will focus on:
+
+- Consistent navigation across devices.
+- Better content spacing and readability.
+- Responsive project presentation.
+- Optimized mobile navigation.
+- Consistent light and dark theme behavior.
 ### 3.4 Responsive Development
 
 Future improvements will focus on:
