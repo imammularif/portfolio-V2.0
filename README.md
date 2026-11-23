@@ -139,16 +139,44 @@ Tablet screenshots document the main website sections and provide visual referen
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>Home</strong><br><br><img src="docs/tablet/home.png" width="85%" alt="Tablet Home"></td>
-    <td width="25%" align="center"><strong>About Me</strong><br><br><img src="docs/tablet/about.png" width="85%" alt="Tablet About Me"></td>
-    <td width="25%" align="center"><strong>Career</strong><br><br><img src="docs/tablet/career.png" width="85%" alt="Tablet Career"></td>
-    <td width="25%" align="center"><strong>Projects</strong><br><br><img src="docs/tablet/projectwork.png" width="85%" alt="Tablet Projects"></td>
+    <td width="50%" align="center">
+      <strong>Home</strong><br><br>
+      <img src="docs/tablet/home.png" width="85%" alt="Tablet Home">
+    </td>
+    <td width="50%" align="center">
+      <strong>About Me</strong><br><br>
+      <img src="docs/tablet/about.png" width="85%" alt="Tablet About Me">
+    </td>
   </tr>
   <tr>
-    <td width="25%" align="center"><strong>Credentials</strong><br><br><img src="docs/tablet/credential.png" width="85%" alt="Tablet Credentials"></td>
-    <td width="25%" align="center"><strong>Core</strong><br><br><img src="docs/tablet/core.png" width="85%" alt="Tablet Core"></td>
-    <td width="25%" align="center"><strong>Beyond</strong><br><br><img src="docs/tablet/beyond.png" width="85%" alt="Tablet Beyond"></td>
-    <td width="25%" align="center"><strong>Footer</strong><br><br><img src="docs/tablet/footer.png" width="85%" alt="Tablet Footer"></td>
+    <td width="50%" align="center">
+      <strong>Career</strong><br><br>
+      <img src="docs/tablet/career.png" width="85%" alt="Tablet Career">
+    </td>
+    <td width="50%" align="center">
+      <strong>Projects</strong><br><br>
+      <img src="docs/tablet/projectwork.png" width="85%" alt="Tablet Projects">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Credentials</strong><br><br>
+      <img src="docs/tablet/credential.png" width="85%" alt="Tablet Credentials">
+    </td>
+    <td width="50%" align="center">
+      <strong>Core</strong><br><br>
+      <img src="docs/tablet/core.png" width="85%" alt="Tablet Core">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Beyond</strong><br><br>
+      <img src="docs/tablet/beyond.png" width="85%" alt="Tablet Beyond">
+    </td>
+    <td width="50%" align="center">
+      <strong>Footer</strong><br><br>
+      <img src="docs/tablet/footer.png" width="85%" alt="Tablet Footer">
+    </td>
   </tr>
 </table>
 
