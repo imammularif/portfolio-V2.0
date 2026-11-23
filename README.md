@@ -90,18 +90,46 @@ Mobile screenshots document the main website sections and provide visual referen
 
 <table>
   <tr>
-    <td width="20%" align="center"><strong>Home</strong><br><br><img src="docs/phone/home.png" width="85%" alt="Mobile Home"></td>
-    <td width="20%" align="center"><strong>About Me</strong><br><br><img src="docs/phone/aboutme.png" width="85%" alt="Mobile About Me"></td>
-    <td width="20%" align="center"><strong>Career</strong><br><br><img src="docs/phone/career.png" width="85%" alt="Mobile Career"></td>
-    <td width="20%" align="center"><strong>Projects</strong><br><br><img src="docs/phone/projectwork.png" width="85%" alt="Mobile Projects"></td>
-    <td width="20%" align="center"><strong>Credentials</strong><br><br><img src="docs/phone/credential.png" width="85%" alt="Mobile Credentials"></td>
+    <td width="33.33%" align="center">
+      <strong>Home</strong><br><br>
+      <img src="docs/phone/home.png" width="85%" alt="Mobile Home">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>About Me</strong><br><br>
+      <img src="docs/phone/aboutme.png" width="85%" alt="Mobile About Me">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>Career</strong><br><br>
+      <img src="docs/phone/career.png" width="85%" alt="Mobile Career">
+    </td>
   </tr>
   <tr>
-    <td width="20%" align="center"><strong>Core</strong><br><br><img src="docs/phone/core.png" width="85%" alt="Mobile Core"></td>
-    <td width="20%" align="center"><strong>Beyond</strong><br><br><img src="docs/phone/beyond.png" width="85%" alt="Mobile Beyond"></td>
-    <td width="20%" align="center"><strong>Footer</strong><br><br><img src="docs/phone/footer.png" width="85%" alt="Mobile Footer"></td>
-    <td width="20%" align="center"><strong>Hamburger Menu</strong><br><br><img src="docs/phone/hamburger.png" width="85%" alt="Mobile Hamburger Menu"></td>
-    <td width="20%"></td>
+    <td width="33.33%" align="center">
+      <strong>Projects</strong><br><br>
+      <img src="docs/phone/projectwork.png" width="85%" alt="Mobile Projects">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>Credentials</strong><br><br>
+      <img src="docs/phone/credential.png" width="85%" alt="Mobile Credentials">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>Core</strong><br><br>
+      <img src="docs/phone/core.png" width="85%" alt="Mobile Core">
+    </td>
+  </tr>
+  <tr>
+    <td width="33.33%" align="center">
+      <strong>Beyond</strong><br><br>
+      <img src="docs/phone/beyond.png" width="85%" alt="Mobile Beyond">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>Footer</strong><br><br>
+      <img src="docs/phone/footer.png" width="85%" alt="Mobile Footer">
+    </td>
+    <td width="33.33%" align="center">
+      <strong>Hamburger Menu</strong><br><br>
+      <img src="docs/phone/hamburger.png" width="85%" alt="Mobile Hamburger Menu">
+    </td>
   </tr>
 </table>
 
