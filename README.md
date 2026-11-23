@@ -94,13 +94,44 @@ Mobile screenshots document the existing interface and provide visual references
 </table>
 
 
-| Home | About Me | Career |
-|:---:|:---:|:---:|
-| <img src="docs/phone/home.png" width="115" alt="Mobile Home"> | <img src="docs/phone/aboutme.png" width="115" alt="Mobile About Me"> | <img src="docs/phone/career.png" width="115" alt="Mobile Career"> |
-| Projects | Credentials | Core |
-| <img src="docs/phone/projectwork.png" width="115" alt="Mobile Projects"> | <img src="docs/phone/credential.png" width="115" alt="Mobile Credentials"> | <img src="docs/phone/core.png" width="115" alt="Mobile Core"> |
-| Beyond | Footer | Light Mode |
-| <img src="docs/phone/beyond.png" width="115" alt="Mobile Beyond"> | <img src="docs/phone/footer.png" width="115" alt="Mobile Footer"> | <img src="docs/phone/light.png" width="115" alt="Mobile Light Mode"> |
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>About Me</strong></td>
+    <td align="center"><strong>Career</strong></td>
+    <td align="center"><strong>Projects</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/phone/home.png" width="100" alt="Home"></td>
+    <td align="center"><img src="docs/phone/aboutme.png" width="100" alt="About Me"></td>
+    <td align="center"><img src="docs/phone/career.png" width="100" alt="Career"></td>
+    <td align="center"><img src="docs/phone/projectwork.png" width="100" alt="Projects"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Credentials</strong></td>
+    <td align="center"><strong>Core</strong></td>
+    <td align="center"><strong>Beyond</strong></td>
+    <td align="center"><strong>Footer</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/phone/credential.png" width="100" alt="Credentials"></td>
+    <td align="center"><img src="docs/phone/core.png" width="100" alt="Core"></td>
+    <td align="center"><img src="docs/phone/beyond.png" width="100" alt="Beyond"></td>
+    <td align="center"><img src="docs/phone/footer.png" width="100" alt="Footer"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Light Mode</strong></td>
+    <td align="center"><strong>Dark Mode</strong></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/phone/light.png" width="100" alt="Light Mode"></td>
+    <td align="center"><img src="docs/phone/dark.png" width="100" alt="Dark Mode"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 **Additional Theme Reference**
 
