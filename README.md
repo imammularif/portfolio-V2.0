@@ -171,99 +171,7 @@ Features will be reviewed and improved progressively during the redesign process
 
 ---
 
-## 5. Technology Stack
-
-### Frontend Development
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JavaScript)
-
-### Data & Database Technologies
-
-- SQL
-- Python
-- Pandas
-- PostgreSQL
-- Microsoft SQL Server
-- Data Analytics
-- Data Validation
-- Database Troubleshooting
-
-### Development & Productivity Tools
-
-- Visual Studio Code
-- Git
-- GitHub
-- DBeaver
-- Grafana
-- Microsoft Excel
-
-### Deployment
-
-- GitHub Pages
-
----
-
-## 7. Education & Professional Journey
-
-### Education
-
-- SD Negeri 1 Dompu
-- SMP Negeri 1 Dompu
-- SMA Negeri 1 Dompu — Science
-- Universitas Teknologi Yogyakarta — Bachelor of Informatics
-
-### Professional Experience
-
-**PLN Icon Plus — Technical Support**
-
-Technical support experience involving troubleshooting and operational support.
-
-**Bank Raya Indonesia — Product Operations / Digital Problem Management**
-
-Experience supporting digital banking operations, incident management, payment services, and data validation.
-
-### Professional Direction
-
-**Product Operations | Data Analyst | SQL Specialist**
-
----
-
-## 8. Professional Focus
-
-Areas of professional interest:
-
-- Product Operations
-- Data Analytics
-- Data Operations
-- SQL & Database Management
-- Business Analysis
-- Digital Banking Technology
-- Application Support
-- Data Engineering
-- Cloud Technology
-- AI & Machine Learning
-
----
-
-## 9. Continuous Learning
-
-Current learning areas include:
-
-- Advanced SQL
-- Python for Data Analytics
-- Data Analytics & Visualization
-- Data Engineering Fundamentals
-- Database Management
-- Cloud Technology
-- Data Science
-- Machine Learning
-- Generative AI
-
----
-
-## 10. Project Structure
+## 5. Project Structure
 
 ```text
 portfolio-V2.0/
@@ -313,7 +221,7 @@ portfolio-V2.0/
 
 ---
 
-## 11. Installation & Usage
+## 6. Installation & Usage
 
 Clone the repository:
 
@@ -333,7 +241,7 @@ No frontend framework installation is required.
 
 ---
 
-## 14. Contact
+## 7. Contact
 
 For professional opportunities, collaboration, or project discussions:
 
@@ -348,7 +256,7 @@ https://github.com/imammularif
 
 ---
 
-## 15. License
+## 8. License
 
 This portfolio is a personal project created and maintained by **Imammul Arif**.
 
